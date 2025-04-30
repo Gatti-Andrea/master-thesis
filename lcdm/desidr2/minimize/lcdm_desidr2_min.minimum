@@ -1,0 +1,32 @@
+ -log(Like) = 6.838935604584076
+  chi-sq    = 13.677871209168153
+
+    4  6.859387609e+01   H0                                H_0
+    9  3.050810179e+00   logA                              \log(10^{10} A_\mathrm{s})
+   11  9.620778345e-01   ns                                n_\mathrm{s}
+   12  2.224970885e-02   ombh2                             \Omega_\mathrm{b} h^2
+   13  1.169454292e-01   omch2                             \Omega_\mathrm{c} h^2
+   23  6.400740692e-02   tau                               \tau_\mathrm{reio}
+
+   10  0.06              mnu                               mnu
+
+    1  2.113245857e+00   A                                 10^9 A_\mathrm{s}
+    2  2.113245857e-09   As                                A_\mathrm{s}
+    3  2.470675486e+00   DHBBN                             10^5 \mathrm{D}/\mathrm{H}
+    5  2.458310223e-01   YHe                               Y_\mathrm{P}
+    6  2.471625930e-01   Y_p                               Y_P^\mathrm{BBN}
+    7  1.377369299e+01   age                               {\rm{Age}}/\mathrm{Gyr}
+    8  1.859318964e+00   clamp                             10^9 A_\mathrm{s} e^{-2\tau}
+   14  7.027150258e-01   omega_de                          \Omega_\Lambda
+   15  2.972081677e-01   omegam                            \Omega_\mathrm{m}
+   16  1.398400046e-01   omegamh2                          \Omega_\mathrm{m} h^2
+   17  1.480401916e+02   rdrag                             r_\mathrm{drag}
+   18  9.698983397e-01   s8h5                              \sigma_8/h^{0.5}
+   19  7.965525371e-01   S8_optimal                        \sigma_8 (\Omega_\mathrm{m} / 0.3)^{0.9}
+   20  5.931083979e-01   s8omegamp25                       \sigma_8 \Omega_\mathrm{m}^{0.25}
+   21  4.379245157e-01   s8omegamp5                        \sigma_8 \Omega_\mathrm{m}^{0.5}
+   22  8.032835774e-01   sigma8                            \sigma_8
+   24  1.041858086e+00   thetastar                         \theta_*
+   25  10.0              zrei                              z_\mathrm{re}
+   26  1.028190449e+01   chi2__BAO                         \chi^2_\mathrm{BAO}
+   27  1.028190449e+01   chi2__bao.desi_dr2.desi_bao_all   \chi^2_{\rm bao.desi\ dr2.desi\ bao\ all}

@@ -1,0 +1,1820 @@
+[0 : output] Output to be read-from/written-into folder '.', with prefix 'act_planck'
+[0 : camb] `camb` module loaded successfully from /mnt/project_mnt/farm_fs/mraveri/projects/cobaya/code/CAMB/camb
+[2 : mcmc] Getting initial point... (this may take a few seconds)
+[1 : mcmc] Getting initial point... (this may take a few seconds)
+[0 : mcmc] Getting initial point... (this may take a few seconds)
+[3 : mcmc] Getting initial point... (this may take a few seconds)
+[2 : mcmc] Initial point: H0:68.11313, logA:3.052267, ns:0.9770839, ombh2:0.02245428, omch2:0.1204115, tau:0.0572548, A_act:0.9903735, P_act:0.9814757
+[1 : mcmc] Initial point: H0:68.00833, logA:3.049377, ns:0.9657206, ombh2:0.02238342, omch2:0.1187395, tau:0.05494947, A_act:1.000604, P_act:0.9792946
+[0 : mcmc] Initial point: H0:68.07211, logA:3.049858, ns:0.967299, ombh2:0.02223301, omch2:0.1204411, tau:0.05749322, A_act:0.9981565, P_act:0.9783156
+[3 : mcmc] Initial point: H0:67.91361, logA:3.051312, ns:0.9690252, ombh2:0.02220214, omch2:0.1185601, tau:0.05719806, A_act:0.9905161, P_act:0.9712654
+[0 : model] Measuring speeds... (this may take a few seconds)
+[0 : model] Setting measured speeds (per sec): {planck_2018_lowl.TT: 944.0, planck_2018_lowl.EE_sroll2: 714.0, act_dr6_cmbonly.PlanckActCut: 216.0, act_dr6_cmbonly: 111.0, camb.transfers: 0.186, camb: 0.139}
+[0 : mcmc] Dragging with number of interpolating steps:
+[0 : mcmc] * 1 : [['H0', 'ombh2', 'omch2', 'tau'], ['logA', 'ns']]
+[0 : mcmc] * 4 : [['A_act'], ['P_act']]
+[0 : autoselect_covmat] No cached covmat database present, not usable or not up-to-date. Will be re-created and cached.
+[0 : mcmc] Covariance matrix selected automatically: /mnt/project_mnt/farm_fs/mraveri/projects/cobaya/data/planck_supp_data_and_covmats/covmats/base_plikHM_TTTEEE_lowE.covmat
+[0 : mcmc] Covariance matrix loaded for params ['ombh2', 'omch2', 'tau', 'logA', 'ns']
+[0 : mcmc] Missing proposal covariance for params ['H0', 'A_act', 'P_act']
+[0 : mcmc] Covariance matrix not complete. We will start learning the covariance of the proposal earlier: R-1 = 3000 (would be 300 if all params loaded).
+[0 : mcmc] Sampling!
+[0 : mcmc] Progress @ 2025-04-19 10:23:31 : 1 steps taken, and 0 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:23:34 : 1 steps taken, and 0 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:23:35 : 1 steps taken, and 0 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:23:35 : 1 steps taken, and 0 accepted.
+[0 : mcmc] Progress @ 2025-04-19 10:25:33 : 12 steps taken, and 2 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:25:36 : 12 steps taken, and 2 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:25:43 : 13 steps taken, and 5 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:25:45 : 13 steps taken, and 1 accepted.
+[0 : mcmc] Progress @ 2025-04-19 10:27:40 : 24 steps taken, and 2 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:27:43 : 24 steps taken, and 4 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:27:51 : 25 steps taken, and 8 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:27:53 : 25 steps taken, and 2 accepted.
+[0 : mcmc] Progress @ 2025-04-19 10:29:48 : 36 steps taken, and 3 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:29:50 : 36 steps taken, and 6 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:29:57 : 37 steps taken, and 4 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:29:59 : 37 steps taken, and 12 accepted.
+[0 : mcmc] Progress @ 2025-04-19 10:31:51 : 48 steps taken, and 5 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:31:58 : 48 steps taken, and 5 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:31:59 : 48 steps taken, and 9 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:32:05 : 49 steps taken, and 13 accepted.
+[0 : mcmc] Progress @ 2025-04-19 10:33:57 : 61 steps taken, and 6 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:34:04 : 59 steps taken, and 7 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:34:05 : 60 steps taken, and 11 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:34:06 : 61 steps taken, and 15 accepted.
+[0 : mcmc] Progress @ 2025-04-19 10:36:04 : 73 steps taken, and 6 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:36:05 : 70 steps taken, and 10 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:36:10 : 72 steps taken, and 15 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:36:14 : 73 steps taken, and 18 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:38:10 : 83 steps taken, and 18 accepted.
+[0 : mcmc] Progress @ 2025-04-19 10:38:12 : 85 steps taken, and 9 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:38:16 : 83 steps taken, and 11 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:38:20 : 85 steps taken, and 19 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:40:18 : 95 steps taken, and 19 accepted.
+[0 : mcmc] Progress @ 2025-04-19 10:40:19 : 97 steps taken, and 11 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:40:23 : 97 steps taken, and 19 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:40:26 : 95 steps taken, and 13 accepted.
+[0 : mcmc] Progress @ 2025-04-19 10:42:21 : 109 steps taken, and 13 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:42:28 : 107 steps taken, and 20 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:42:33 : 107 steps taken, and 15 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:42:35 : 109 steps taken, and 23 accepted.
+[0 : mcmc] Progress @ 2025-04-19 10:44:23 : 120 steps taken, and 13 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:44:31 : 119 steps taken, and 22 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:44:40 : 121 steps taken, and 25 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:44:41 : 119 steps taken, and 16 accepted.
+[0 : mcmc] Progress @ 2025-04-19 10:46:31 : 132 steps taken, and 15 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:46:38 : 131 steps taken, and 24 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:46:42 : 133 steps taken, and 26 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:46:48 : 131 steps taken, and 17 accepted.
+[0 : mcmc] Progress @ 2025-04-19 10:48:36 : 144 steps taken, and 17 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:48:43 : 142 steps taken, and 25 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:48:52 : 145 steps taken, and 29 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:48:56 : 143 steps taken, and 18 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:50:44 : 154 steps taken, and 26 accepted.
+[0 : mcmc] Progress @ 2025-04-19 10:50:45 : 156 steps taken, and 18 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:50:53 : 157 steps taken, and 30 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:51:03 : 155 steps taken, and 18 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:52:46 : 166 steps taken, and 26 accepted.
+[0 : mcmc] Progress @ 2025-04-19 10:52:54 : 168 steps taken, and 19 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:53:04 : 169 steps taken, and 30 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:53:05 : 166 steps taken, and 21 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:54:53 : 175 steps taken, and 27 accepted.
+[0 : mcmc] Progress @ 2025-04-19 10:54:57 : 177 steps taken, and 20 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:55:13 : 175 steps taken, and 21 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:55:20 : 179 steps taken, and 32 accepted.
+[0 : mcmc] Progress @ 2025-04-19 10:57:07 : 187 steps taken, and 20 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:57:08 : 185 steps taken, and 29 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:57:23 : 184 steps taken, and 22 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:57:32 : 188 steps taken, and 33 accepted.
+[3 : mcmc] Progress @ 2025-04-19 10:59:20 : 194 steps taken, and 30 accepted.
+[0 : mcmc] Progress @ 2025-04-19 10:59:22 : 196 steps taken, and 21 accepted.
+[1 : mcmc] Progress @ 2025-04-19 10:59:30 : 193 steps taken, and 24 accepted.
+[2 : mcmc] Progress @ 2025-04-19 10:59:48 : 197 steps taken, and 34 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:01:23 : 203 steps taken, and 32 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:01:35 : 201 steps taken, and 24 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:01:36 : 205 steps taken, and 23 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:01:53 : 206 steps taken, and 34 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:03:27 : 211 steps taken, and 32 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:03:48 : 210 steps taken, and 24 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:03:50 : 214 steps taken, and 24 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:03:55 : 214 steps taken, and 36 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:05:41 : 220 steps taken, and 34 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:06:00 : 218 steps taken, and 26 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:06:00 : 223 steps taken, and 38 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:06:05 : 224 steps taken, and 25 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:07:55 : 229 steps taken, and 36 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:08:05 : 232 steps taken, and 41 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:08:09 : 232 steps taken, and 25 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:08:12 : 227 steps taken, and 27 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:10:05 : 240 steps taken, and 41 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:10:08 : 238 steps taken, and 36 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:10:17 : 236 steps taken, and 27 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:10:18 : 241 steps taken, and 26 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:12:09 : 248 steps taken, and 41 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:12:20 : 247 steps taken, and 37 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:12:21 : 249 steps taken, and 26 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:12:33 : 245 steps taken, and 30 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:14:22 : 257 steps taken, and 42 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:14:25 : 256 steps taken, and 39 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:14:26 : 259 steps taken, and 27 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:14:46 : 254 steps taken, and 32 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:16:25 : 266 steps taken, and 42 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:16:28 : 264 steps taken, and 40 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:16:40 : 268 steps taken, and 29 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:17:00 : 263 steps taken, and 33 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:18:28 : 274 steps taken, and 43 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:18:32 : 272 steps taken, and 42 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:18:43 : 276 steps taken, and 31 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:19:12 : 272 steps taken, and 35 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:20:35 : 280 steps taken, and 42 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:20:39 : 283 steps taken, and 44 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:20:47 : 284 steps taken, and 32 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:21:15 : 280 steps taken, and 36 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:22:40 : 289 steps taken, and 43 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:22:42 : 291 steps taken, and 47 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:22:59 : 293 steps taken, and 34 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:23:29 : 289 steps taken, and 37 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:24:43 : 297 steps taken, and 44 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:24:45 : 300 steps taken, and 50 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:25:04 : 302 steps taken, and 34 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:25:34 : 298 steps taken, and 39 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:26:46 : 306 steps taken, and 45 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:26:57 : 309 steps taken, and 51 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:27:07 : 310 steps taken, and 34 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:27:38 : 306 steps taken, and 41 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:28:52 : 315 steps taken, and 47 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:29:00 : 317 steps taken, and 52 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:29:19 : 319 steps taken, and 34 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:29:52 : 315 steps taken, and 41 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:30:55 : 323 steps taken, and 48 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:31:05 : 326 steps taken, and 55 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:31:24 : 327 steps taken, and 34 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:31:57 : 323 steps taken, and 43 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:33:04 : 332 steps taken, and 49 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:33:08 : 334 steps taken, and 57 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:33:29 : 336 steps taken, and 35 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:34:03 : 332 steps taken, and 44 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:35:07 : 340 steps taken, and 49 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:35:20 : 343 steps taken, and 57 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:35:42 : 345 steps taken, and 36 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:36:08 : 340 steps taken, and 45 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:37:10 : 349 steps taken, and 51 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:37:33 : 352 steps taken, and 57 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:37:54 : 354 steps taken, and 37 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:38:23 : 349 steps taken, and 47 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:39:13 : 357 steps taken, and 53 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:39:45 : 361 steps taken, and 58 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:39:58 : 362 steps taken, and 37 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:40:30 : 358 steps taken, and 49 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:41:17 : 365 steps taken, and 54 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:41:59 : 370 steps taken, and 58 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:42:11 : 371 steps taken, and 39 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:42:33 : 366 steps taken, and 49 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:43:33 : 374 steps taken, and 56 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:44:10 : 379 steps taken, and 58 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:44:12 : 380 steps taken, and 39 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:44:46 : 375 steps taken, and 50 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:45:37 : 383 steps taken, and 56 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:46:12 : 387 steps taken, and 58 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:46:23 : 388 steps taken, and 40 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:47:00 : 384 steps taken, and 52 accepted.
+[2 : mcmc] Learn + convergence test @ 60 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Progress @ 2025-04-19 11:47:50 : 392 steps taken, and 56 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:48:19 : 396 steps taken, and 60 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:48:27 : 397 steps taken, and 40 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:49:05 : 393 steps taken, and 53 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:49:54 : 400 steps taken, and 57 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:50:20 : 404 steps taken, and 61 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:50:43 : 406 steps taken, and 40 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:51:10 : 401 steps taken, and 54 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:52:06 : 409 steps taken, and 57 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:52:24 : 413 steps taken, and 62 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:52:56 : 415 steps taken, and 41 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:53:13 : 409 steps taken, and 55 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:54:08 : 417 steps taken, and 58 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:54:28 : 421 steps taken, and 64 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:55:02 : 424 steps taken, and 42 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:55:28 : 418 steps taken, and 55 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:56:14 : 426 steps taken, and 59 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:56:41 : 430 steps taken, and 65 accepted.
+[3 : mcmc] Learn + convergence test @ 60 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2025-04-19 11:57:05 : 432 steps taken, and 43 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:57:42 : 427 steps taken, and 56 accepted.
+[3 : mcmc] Progress @ 2025-04-19 11:58:17 : 434 steps taken, and 60 accepted.
+[2 : mcmc] Progress @ 2025-04-19 11:58:52 : 439 steps taken, and 66 accepted.
+[0 : mcmc] Progress @ 2025-04-19 11:59:18 : 441 steps taken, and 45 accepted.
+[1 : mcmc] Progress @ 2025-04-19 11:59:57 : 436 steps taken, and 57 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:00:27 : 443 steps taken, and 61 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:00:58 : 448 steps taken, and 68 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:01:21 : 449 steps taken, and 47 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:02:03 : 445 steps taken, and 58 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:02:30 : 452 steps taken, and 61 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:03:00 : 456 steps taken, and 70 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:03:27 : 458 steps taken, and 49 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:04:15 : 453 steps taken, and 59 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:04:43 : 461 steps taken, and 61 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:05:12 : 465 steps taken, and 75 accepted.
+[1 : mcmc] Learn + convergence test @ 60 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2025-04-19 12:05:29 : 466 steps taken, and 51 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:06:21 : 462 steps taken, and 60 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:06:45 : 469 steps taken, and 61 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:07:25 : 474 steps taken, and 76 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:07:43 : 475 steps taken, and 51 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:08:34 : 471 steps taken, and 60 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:08:58 : 478 steps taken, and 63 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:09:38 : 483 steps taken, and 77 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:09:56 : 485 steps taken, and 52 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:10:38 : 479 steps taken, and 60 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:11:10 : 487 steps taken, and 64 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:11:42 : 491 steps taken, and 78 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:12:10 : 494 steps taken, and 53 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:12:45 : 488 steps taken, and 62 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:13:13 : 495 steps taken, and 65 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:13:54 : 500 steps taken, and 80 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:14:24 : 503 steps taken, and 53 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:15:00 : 497 steps taken, and 64 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:15:19 : 504 steps taken, and 67 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:15:57 : 510 steps taken, and 83 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:16:29 : 512 steps taken, and 55 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:17:02 : 505 steps taken, and 65 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:17:32 : 513 steps taken, and 67 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:18:11 : 519 steps taken, and 85 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:18:31 : 520 steps taken, and 58 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:19:07 : 513 steps taken, and 66 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:19:44 : 522 steps taken, and 69 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:20:23 : 528 steps taken, and 87 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:20:45 : 529 steps taken, and 58 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:21:15 : 522 steps taken, and 66 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:21:55 : 531 steps taken, and 70 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:22:27 : 536 steps taken, and 89 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:22:51 : 538 steps taken, and 59 accepted.
+[0 : mcmc] Learn + convergence test @ 60 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[1 : mcmc] Progress @ 2025-04-19 12:23:28 : 531 steps taken, and 67 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:24:03 : 540 steps taken, and 71 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:24:37 : 546 steps taken, and 89 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:25:37 : 541 steps taken, and 67 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:26:40 : 557 steps taken, and 89 accepted.
+[0 : mcmc]  - Acceptance rate: 0.131 = avg([0.1115, 0.1214, 0.1630, 0.1146])
+[0 : mcmc]  - Convergence of means: R-1 = 50.907868 after 290 accepted steps = sum([60, 68, 90, 72])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[3 : mcmc] Progress @ 2025-04-19 12:27:34 : 543 steps taken, and 73 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:27:35 : 540 steps taken, and 60 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:27:52 : 548 steps taken, and 70 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:28:42 : 567 steps taken, and 93 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:29:37 : 553 steps taken, and 75 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:29:41 : 549 steps taken, and 62 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:29:58 : 555 steps taken, and 74 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:30:45 : 576 steps taken, and 98 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:31:42 : 561 steps taken, and 79 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:31:51 : 558 steps taken, and 65 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:32:01 : 563 steps taken, and 74 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:32:59 : 585 steps taken, and 102 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:33:48 : 570 steps taken, and 80 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:34:05 : 567 steps taken, and 69 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:34:14 : 572 steps taken, and 78 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:35:00 : 593 steps taken, and 104 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:35:50 : 578 steps taken, and 85 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:36:06 : 575 steps taken, and 71 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:36:28 : 581 steps taken, and 82 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:37:03 : 602 steps taken, and 105 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:37:55 : 586 steps taken, and 89 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:38:11 : 584 steps taken, and 73 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:38:29 : 589 steps taken, and 85 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:39:16 : 611 steps taken, and 108 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:39:55 : 595 steps taken, and 92 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:40:23 : 593 steps taken, and 81 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:40:41 : 598 steps taken, and 89 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:41:29 : 620 steps taken, and 112 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:42:08 : 603 steps taken, and 94 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:42:28 : 602 steps taken, and 86 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:42:53 : 607 steps taken, and 93 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:43:41 : 629 steps taken, and 116 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:44:15 : 612 steps taken, and 98 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:44:40 : 610 steps taken, and 89 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:45:06 : 616 steps taken, and 96 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:45:54 : 638 steps taken, and 119 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:46:20 : 620 steps taken, and 101 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:46:46 : 619 steps taken, and 93 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:47:11 : 625 steps taken, and 98 accepted.
+[2 : mcmc] Learn + convergence test @ 120 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2025-04-19 12:47:58 : 646 steps taken, and 121 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:48:32 : 629 steps taken, and 107 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:49:00 : 628 steps taken, and 95 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:49:14 : 633 steps taken, and 99 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:50:11 : 655 steps taken, and 123 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:50:36 : 638 steps taken, and 110 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:51:04 : 636 steps taken, and 96 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:51:27 : 642 steps taken, and 102 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:52:18 : 664 steps taken, and 128 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:52:48 : 646 steps taken, and 113 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:53:08 : 645 steps taken, and 99 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:53:41 : 651 steps taken, and 105 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:54:20 : 672 steps taken, and 130 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:54:54 : 655 steps taken, and 117 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:55:12 : 653 steps taken, and 104 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:55:53 : 660 steps taken, and 110 accepted.
+[3 : mcmc] Learn + convergence test @ 120 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2025-04-19 12:56:23 : 680 steps taken, and 133 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:57:00 : 664 steps taken, and 123 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:57:16 : 661 steps taken, and 107 accepted.
+[1 : mcmc] Progress @ 2025-04-19 12:57:56 : 668 steps taken, and 113 accepted.
+[2 : mcmc] Progress @ 2025-04-19 12:58:30 : 689 steps taken, and 139 accepted.
+[3 : mcmc] Progress @ 2025-04-19 12:59:03 : 672 steps taken, and 126 accepted.
+[0 : mcmc] Progress @ 2025-04-19 12:59:21 : 670 steps taken, and 110 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:00:01 : 677 steps taken, and 116 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:00:41 : 698 steps taken, and 141 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:01:07 : 680 steps taken, and 128 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:01:24 : 678 steps taken, and 112 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:02:03 : 685 steps taken, and 119 accepted.
+[1 : mcmc] Learn + convergence test @ 120 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2025-04-19 13:02:57 : 707 steps taken, and 145 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:03:19 : 689 steps taken, and 133 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:03:27 : 686 steps taken, and 113 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:04:08 : 693 steps taken, and 124 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:04:59 : 715 steps taken, and 148 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:05:32 : 698 steps taken, and 134 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:05:33 : 695 steps taken, and 116 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:06:13 : 702 steps taken, and 128 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:07:00 : 723 steps taken, and 151 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:07:37 : 703 steps taken, and 118 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:07:47 : 707 steps taken, and 139 accepted.
+[0 : mcmc] Learn + convergence test @ 120 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[1 : mcmc] Progress @ 2025-04-19 13:08:26 : 711 steps taken, and 132 accepted.
+[0 : mcmc]  - Acceptance rate: 0.347 = avg([0.3593, 0.3251, 0.3092, 0.3966])
+[0 : mcmc]  - Convergence of means: R-1 = 1.961148 after 548 accepted steps = sum([120, 132, 154, 142])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[2 : mcmc] Progress @ 2025-04-19 13:09:15 : 733 steps taken, and 155 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:09:49 : 715 steps taken, and 143 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:09:52 : 711 steps taken, and 122 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:10:33 : 718 steps taken, and 135 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:11:19 : 742 steps taken, and 158 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:11:54 : 723 steps taken, and 145 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:12:03 : 719 steps taken, and 125 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:12:44 : 727 steps taken, and 138 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:13:23 : 750 steps taken, and 162 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:14:01 : 732 steps taken, and 150 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:14:17 : 728 steps taken, and 129 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:14:57 : 736 steps taken, and 141 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:15:33 : 759 steps taken, and 167 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:16:06 : 740 steps taken, and 152 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:16:23 : 737 steps taken, and 131 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:17:12 : 745 steps taken, and 146 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:17:49 : 768 steps taken, and 173 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:18:15 : 750 steps taken, and 153 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:18:25 : 745 steps taken, and 134 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:19:21 : 754 steps taken, and 149 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:19:49 : 777 steps taken, and 177 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:20:19 : 758 steps taken, and 158 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:20:39 : 754 steps taken, and 140 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:21:23 : 762 steps taken, and 152 accepted.
+[2 : mcmc] Learn + convergence test @ 180 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2025-04-19 13:21:51 : 785 steps taken, and 180 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:22:23 : 767 steps taken, and 162 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:22:54 : 763 steps taken, and 142 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:23:36 : 771 steps taken, and 156 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:23:54 : 793 steps taken, and 184 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:24:26 : 775 steps taken, and 164 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:25:07 : 772 steps taken, and 145 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:25:38 : 779 steps taken, and 158 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:25:56 : 801 steps taken, and 189 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:26:40 : 784 steps taken, and 166 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:27:20 : 781 steps taken, and 146 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:27:45 : 788 steps taken, and 161 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:28:01 : 810 steps taken, and 190 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:28:53 : 793 steps taken, and 168 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:29:23 : 789 steps taken, and 150 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:29:48 : 796 steps taken, and 163 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:30:14 : 819 steps taken, and 195 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:30:56 : 801 steps taken, and 171 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:31:29 : 798 steps taken, and 156 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:32:01 : 805 steps taken, and 168 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:32:24 : 828 steps taken, and 195 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:33:03 : 810 steps taken, and 177 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:33:31 : 806 steps taken, and 158 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:34:06 : 814 steps taken, and 173 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:34:25 : 836 steps taken, and 196 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:35:08 : 818 steps taken, and 179 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:35:43 : 815 steps taken, and 162 accepted.
+[3 : mcmc] Learn + convergence test @ 180 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2025-04-19 13:36:08 : 822 steps taken, and 176 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:36:29 : 845 steps taken, and 200 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:37:15 : 827 steps taken, and 182 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:37:50 : 824 steps taken, and 167 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:38:22 : 831 steps taken, and 179 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:38:33 : 854 steps taken, and 202 accepted.
+[1 : mcmc] Learn + convergence test @ 180 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Progress @ 2025-04-19 13:39:28 : 836 steps taken, and 186 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:40:01 : 833 steps taken, and 172 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:40:36 : 840 steps taken, and 182 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:40:37 : 862 steps taken, and 204 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:41:33 : 844 steps taken, and 189 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:42:14 : 842 steps taken, and 175 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:42:38 : 870 steps taken, and 206 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:42:42 : 848 steps taken, and 185 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:43:46 : 853 steps taken, and 194 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:44:15 : 850 steps taken, and 178 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:44:47 : 857 steps taken, and 186 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:44:50 : 879 steps taken, and 209 accepted.
+[0 : mcmc] Learn + convergence test @ 180 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[3 : mcmc] Progress @ 2025-04-19 13:45:48 : 862 steps taken, and 198 accepted.
+[0 : mcmc]  - Acceptance rate: 0.380 = avg([0.3734, 0.3668, 0.3786, 0.3992])
+[0 : mcmc]  - Convergence of means: R-1 = 0.569912 after 779 accepted steps = sum([180, 189, 212, 198])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2025-04-19 13:47:04 : 868 steps taken, and 189 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:47:05 : 884 steps taken, and 212 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:47:06 : 856 steps taken, and 180 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:47:55 : 866 steps taken, and 199 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:49:12 : 865 steps taken, and 183 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:49:17 : 893 steps taken, and 214 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:49:21 : 877 steps taken, and 192 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:50:02 : 875 steps taken, and 202 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:51:13 : 873 steps taken, and 186 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:51:22 : 902 steps taken, and 217 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:51:26 : 886 steps taken, and 196 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:52:05 : 883 steps taken, and 204 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:53:27 : 882 steps taken, and 190 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:53:29 : 894 steps taken, and 198 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:53:32 : 910 steps taken, and 219 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:54:18 : 892 steps taken, and 209 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:55:33 : 902 steps taken, and 202 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:55:37 : 919 steps taken, and 221 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:55:40 : 891 steps taken, and 193 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:56:30 : 901 steps taken, and 212 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:57:42 : 899 steps taken, and 196 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:57:47 : 927 steps taken, and 226 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:57:47 : 911 steps taken, and 204 accepted.
+[3 : mcmc] Progress @ 2025-04-19 13:58:42 : 910 steps taken, and 216 accepted.
+[2 : mcmc] Progress @ 2025-04-19 13:59:52 : 936 steps taken, and 227 accepted.
+[1 : mcmc] Progress @ 2025-04-19 13:59:54 : 920 steps taken, and 206 accepted.
+[0 : mcmc] Progress @ 2025-04-19 13:59:56 : 908 steps taken, and 200 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:00:56 : 919 steps taken, and 218 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:01:56 : 945 steps taken, and 231 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:01:59 : 928 steps taken, and 208 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:02:00 : 917 steps taken, and 202 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:03:01 : 927 steps taken, and 221 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:03:59 : 953 steps taken, and 232 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:04:03 : 925 steps taken, and 206 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:04:14 : 937 steps taken, and 211 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:05:07 : 936 steps taken, and 224 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:06:10 : 962 steps taken, and 234 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:06:16 : 934 steps taken, and 208 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:06:27 : 946 steps taken, and 211 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:07:20 : 945 steps taken, and 227 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:08:12 : 970 steps taken, and 236 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:08:30 : 943 steps taken, and 210 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:08:32 : 955 steps taken, and 212 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:09:36 : 954 steps taken, and 229 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:10:25 : 979 steps taken, and 238 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:10:34 : 952 steps taken, and 212 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:10:36 : 963 steps taken, and 212 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:11:41 : 963 steps taken, and 230 accepted.
+[2 : mcmc] Learn + convergence test @ 240 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2025-04-19 14:12:37 : 988 steps taken, and 243 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:12:39 : 971 steps taken, and 214 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:12:39 : 960 steps taken, and 215 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:13:52 : 971 steps taken, and 231 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:14:45 : 997 steps taken, and 245 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:14:48 : 969 steps taken, and 218 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:14:48 : 980 steps taken, and 216 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:15:59 : 981 steps taken, and 234 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:16:51 : 976 steps taken, and 219 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:16:51 : 989 steps taken, and 219 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:16:57 : 1006 steps taken, and 246 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:18:12 : 990 steps taken, and 236 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:18:56 : 998 steps taken, and 220 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:19:03 : 985 steps taken, and 221 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:19:05 : 1015 steps taken, and 250 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:20:25 : 999 steps taken, and 238 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:21:07 : 1023 steps taken, and 252 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:21:07 : 1006 steps taken, and 221 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:21:16 : 994 steps taken, and 223 accepted.
+[3 : mcmc] Learn + convergence test @ 240 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Progress @ 2025-04-19 14:22:29 : 1007 steps taken, and 240 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:23:14 : 1015 steps taken, and 223 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:23:21 : 1032 steps taken, and 255 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:23:22 : 1003 steps taken, and 227 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:24:43 : 1016 steps taken, and 244 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:25:19 : 1023 steps taken, and 229 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:25:26 : 1041 steps taken, and 257 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:25:27 : 1011 steps taken, and 228 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:26:47 : 1025 steps taken, and 249 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:27:22 : 1031 steps taken, and 231 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:27:32 : 1049 steps taken, and 259 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:27:39 : 1020 steps taken, and 231 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:28:50 : 1033 steps taken, and 252 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:29:35 : 1057 steps taken, and 264 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:29:36 : 1040 steps taken, and 235 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:29:44 : 1028 steps taken, and 233 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:30:54 : 1042 steps taken, and 254 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:31:38 : 1065 steps taken, and 265 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:31:47 : 1037 steps taken, and 235 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:31:50 : 1049 steps taken, and 236 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:32:59 : 1050 steps taken, and 256 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:33:43 : 1074 steps taken, and 269 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:33:50 : 1045 steps taken, and 237 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:33:55 : 1058 steps taken, and 239 accepted.
+[1 : mcmc] Learn + convergence test @ 240 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Progress @ 2025-04-19 14:35:13 : 1059 steps taken, and 257 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:35:46 : 1082 steps taken, and 271 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:35:59 : 1066 steps taken, and 241 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:36:03 : 1054 steps taken, and 238 accepted.
+[0 : mcmc] Learn + convergence test @ 240 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[3 : mcmc] Progress @ 2025-04-19 14:37:26 : 1068 steps taken, and 259 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:38:02 : 1076 steps taken, and 244 accepted.
+[0 : mcmc]  - Acceptance rate: 0.332 = avg([0.3399, 0.3130, 0.3407, 0.3351])
+[0 : mcmc]  - Convergence of means: R-1 = 0.265307 after 1020 accepted steps = sum([240, 245, 275, 260])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[3 : mcmc] Progress @ 2025-04-19 14:39:36 : 1073 steps taken, and 260 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:39:42 : 1060 steps taken, and 241 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:39:43 : 1090 steps taken, and 276 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:40:02 : 1086 steps taken, and 245 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:41:47 : 1099 steps taken, and 280 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:41:50 : 1082 steps taken, and 262 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:41:56 : 1069 steps taken, and 243 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:42:07 : 1095 steps taken, and 249 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:43:57 : 1108 steps taken, and 285 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:44:03 : 1091 steps taken, and 266 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:44:11 : 1078 steps taken, and 246 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:44:17 : 1103 steps taken, and 250 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:46:00 : 1116 steps taken, and 285 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:46:07 : 1099 steps taken, and 268 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:46:22 : 1112 steps taken, and 253 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:46:24 : 1087 steps taken, and 250 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:48:02 : 1124 steps taken, and 286 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:48:09 : 1107 steps taken, and 271 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:48:24 : 1120 steps taken, and 255 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:48:36 : 1096 steps taken, and 252 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:50:13 : 1133 steps taken, and 289 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:50:15 : 1116 steps taken, and 274 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:50:32 : 1129 steps taken, and 257 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:50:43 : 1105 steps taken, and 256 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:52:20 : 1143 steps taken, and 293 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:52:20 : 1123 steps taken, and 275 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:52:46 : 1138 steps taken, and 259 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:52:59 : 1115 steps taken, and 256 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:54:31 : 1132 steps taken, and 279 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:54:31 : 1152 steps taken, and 294 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:54:48 : 1146 steps taken, and 260 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:55:02 : 1124 steps taken, and 258 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:56:32 : 1160 steps taken, and 295 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:56:34 : 1140 steps taken, and 281 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:56:53 : 1154 steps taken, and 262 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:57:04 : 1132 steps taken, and 260 accepted.
+[2 : mcmc] Progress @ 2025-04-19 14:58:32 : 1168 steps taken, and 297 accepted.
+[3 : mcmc] Progress @ 2025-04-19 14:58:47 : 1148 steps taken, and 283 accepted.
+[1 : mcmc] Progress @ 2025-04-19 14:59:01 : 1162 steps taken, and 264 accepted.
+[0 : mcmc] Progress @ 2025-04-19 14:59:15 : 1140 steps taken, and 263 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:00:40 : 1175 steps taken, and 300 accepted.
+[2 : mcmc] Learn + convergence test @ 300 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Progress @ 2025-04-19 15:01:06 : 1156 steps taken, and 284 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:01:07 : 1169 steps taken, and 264 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:01:21 : 1147 steps taken, and 266 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:02:46 : 1181 steps taken, and 304 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:03:13 : 1175 steps taken, and 267 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:03:24 : 1163 steps taken, and 285 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:03:38 : 1154 steps taken, and 268 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:04:54 : 1188 steps taken, and 305 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:05:23 : 1182 steps taken, and 269 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:05:41 : 1170 steps taken, and 286 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:05:45 : 1161 steps taken, and 271 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:07:11 : 1195 steps taken, and 305 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:07:42 : 1189 steps taken, and 270 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:07:52 : 1167 steps taken, and 271 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:07:57 : 1177 steps taken, and 287 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:09:18 : 1202 steps taken, and 307 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:09:58 : 1173 steps taken, and 273 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:10:03 : 1184 steps taken, and 290 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:10:04 : 1197 steps taken, and 272 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:11:24 : 1208 steps taken, and 310 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:12:05 : 1180 steps taken, and 277 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:12:07 : 1190 steps taken, and 290 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:12:09 : 1203 steps taken, and 272 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:13:45 : 1216 steps taken, and 313 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:14:13 : 1187 steps taken, and 278 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:14:16 : 1197 steps taken, and 292 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:14:27 : 1210 steps taken, and 274 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:16:02 : 1223 steps taken, and 315 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:16:22 : 1204 steps taken, and 295 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:16:32 : 1194 steps taken, and 281 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:16:33 : 1216 steps taken, and 275 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:18:24 : 1230 steps taken, and 317 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:18:24 : 1210 steps taken, and 295 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:18:45 : 1201 steps taken, and 282 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:18:52 : 1224 steps taken, and 277 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:20:32 : 1237 steps taken, and 320 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:20:32 : 1217 steps taken, and 298 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:20:53 : 1208 steps taken, and 283 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:21:10 : 1231 steps taken, and 281 accepted.
+[3 : mcmc] Learn + convergence test @ 300 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2025-04-19 15:22:37 : 1243 steps taken, and 320 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:22:46 : 1224 steps taken, and 301 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:22:53 : 1214 steps taken, and 283 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:23:16 : 1238 steps taken, and 283 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:24:44 : 1250 steps taken, and 321 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:25:00 : 1220 steps taken, and 286 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:25:05 : 1231 steps taken, and 303 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:25:35 : 1245 steps taken, and 285 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:26:48 : 1256 steps taken, and 324 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:27:17 : 1227 steps taken, and 289 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:27:22 : 1238 steps taken, and 303 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:27:53 : 1252 steps taken, and 288 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:28:55 : 1263 steps taken, and 327 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:29:24 : 1234 steps taken, and 291 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:29:44 : 1246 steps taken, and 308 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:30:00 : 1258 steps taken, and 291 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:31:12 : 1270 steps taken, and 331 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:31:32 : 1241 steps taken, and 292 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:32:03 : 1253 steps taken, and 309 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:32:08 : 1265 steps taken, and 294 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:33:30 : 1277 steps taken, and 334 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:33:49 : 1248 steps taken, and 295 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:34:16 : 1272 steps taken, and 296 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:34:23 : 1260 steps taken, and 313 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:35:41 : 1284 steps taken, and 334 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:36:06 : 1255 steps taken, and 298 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:36:32 : 1279 steps taken, and 299 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:36:41 : 1267 steps taken, and 314 accepted.
+[1 : mcmc] Learn + convergence test @ 300 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2025-04-19 15:37:50 : 1291 steps taken, and 335 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:38:25 : 1262 steps taken, and 299 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:38:49 : 1274 steps taken, and 317 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:38:50 : 1286 steps taken, and 301 accepted.
+[0 : mcmc] Learn + convergence test @ 300 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[2 : mcmc] Progress @ 2025-04-19 15:40:05 : 1298 steps taken, and 336 accepted.
+[0 : mcmc]  - Acceptance rate: 0.306 = avg([0.3151, 0.2863, 0.3141, 0.3089])
+[0 : mcmc]  - Convergence of means: R-1 = 0.224865 after 1260 accepted steps = sum([300, 303, 337, 320])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2025-04-19 15:40:42 : 1266 steps taken, and 301 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:41:04 : 1280 steps taken, and 321 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:41:05 : 1292 steps taken, and 304 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:42:15 : 1305 steps taken, and 338 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:43:01 : 1273 steps taken, and 303 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:43:13 : 1299 steps taken, and 305 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:43:20 : 1287 steps taken, and 324 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:44:36 : 1313 steps taken, and 340 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:45:09 : 1280 steps taken, and 306 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:45:29 : 1294 steps taken, and 325 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:45:31 : 1306 steps taken, and 307 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:46:54 : 1320 steps taken, and 344 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:47:13 : 1286 steps taken, and 311 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:47:35 : 1300 steps taken, and 328 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:47:39 : 1313 steps taken, and 310 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:49:03 : 1327 steps taken, and 344 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:49:21 : 1293 steps taken, and 312 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:49:44 : 1319 steps taken, and 312 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:49:56 : 1308 steps taken, and 330 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:51:11 : 1334 steps taken, and 345 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:51:28 : 1300 steps taken, and 315 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:51:52 : 1326 steps taken, and 314 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:52:03 : 1315 steps taken, and 332 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:53:17 : 1340 steps taken, and 347 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:53:33 : 1306 steps taken, and 318 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:54:09 : 1321 steps taken, and 332 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:54:09 : 1333 steps taken, and 319 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:55:26 : 1347 steps taken, and 348 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:55:40 : 1313 steps taken, and 320 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:56:17 : 1340 steps taken, and 322 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:56:28 : 1328 steps taken, and 334 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:57:42 : 1354 steps taken, and 352 accepted.
+[0 : mcmc] Progress @ 2025-04-19 15:58:00 : 1320 steps taken, and 323 accepted.
+[1 : mcmc] Progress @ 2025-04-19 15:58:35 : 1347 steps taken, and 324 accepted.
+[3 : mcmc] Progress @ 2025-04-19 15:58:37 : 1335 steps taken, and 337 accepted.
+[2 : mcmc] Progress @ 2025-04-19 15:59:44 : 1360 steps taken, and 353 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:00:12 : 1327 steps taken, and 326 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:00:38 : 1341 steps taken, and 339 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:00:41 : 1353 steps taken, and 325 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:01:51 : 1367 steps taken, and 354 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:02:31 : 1334 steps taken, and 327 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:02:43 : 1347 steps taken, and 341 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:03:02 : 1361 steps taken, and 328 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:04:08 : 1374 steps taken, and 357 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:04:50 : 1341 steps taken, and 331 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:05:03 : 1355 steps taken, and 343 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:05:20 : 1368 steps taken, and 331 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:06:17 : 1381 steps taken, and 359 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:06:57 : 1348 steps taken, and 331 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:07:09 : 1361 steps taken, and 345 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:07:38 : 1375 steps taken, and 333 accepted.
+[2 : mcmc] Learn + convergence test @ 360 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2025-04-19 16:08:22 : 1387 steps taken, and 360 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:09:14 : 1355 steps taken, and 333 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:09:16 : 1368 steps taken, and 348 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:09:45 : 1382 steps taken, and 334 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:10:41 : 1394 steps taken, and 362 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:11:20 : 1362 steps taken, and 336 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:11:32 : 1375 steps taken, and 351 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:12:05 : 1389 steps taken, and 338 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:12:52 : 1401 steps taken, and 364 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:13:39 : 1370 steps taken, and 341 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:13:49 : 1382 steps taken, and 352 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:14:06 : 1395 steps taken, and 340 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:15:09 : 1408 steps taken, and 366 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:15:56 : 1377 steps taken, and 343 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:16:08 : 1389 steps taken, and 357 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:16:26 : 1403 steps taken, and 343 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:17:19 : 1415 steps taken, and 368 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:18:13 : 1395 steps taken, and 358 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:18:15 : 1384 steps taken, and 346 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:18:43 : 1410 steps taken, and 345 accepted.
+[3 : mcmc] Learn + convergence test @ 360 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2025-04-19 16:19:37 : 1422 steps taken, and 368 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:20:21 : 1391 steps taken, and 350 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:20:23 : 1402 steps taken, and 361 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:20:51 : 1417 steps taken, and 346 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:21:56 : 1429 steps taken, and 370 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:22:25 : 1397 steps taken, and 353 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:22:31 : 1409 steps taken, and 363 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:23:07 : 1424 steps taken, and 350 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:24:15 : 1436 steps taken, and 372 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:24:33 : 1404 steps taken, and 354 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:24:50 : 1416 steps taken, and 367 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:25:12 : 1430 steps taken, and 352 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:26:22 : 1443 steps taken, and 376 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:26:39 : 1411 steps taken, and 357 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:27:09 : 1423 steps taken, and 368 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:27:19 : 1437 steps taken, and 353 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:28:30 : 1450 steps taken, and 378 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:28:45 : 1417 steps taken, and 359 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:29:10 : 1430 steps taken, and 368 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:29:24 : 1443 steps taken, and 354 accepted.
+[0 : mcmc] Learn + convergence test @ 360 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2025-04-19 16:30:41 : 1456 steps taken, and 381 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:31:02 : 1424 steps taken, and 360 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:31:26 : 1437 steps taken, and 373 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:31:32 : 1450 steps taken, and 358 accepted.
+[1 : mcmc] Learn + convergence test @ 360 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2025-04-19 16:32:42 : 1463 steps taken, and 385 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:33:03 : 1431 steps taken, and 362 accepted.
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.304 = avg([0.3165, 0.2903, 0.2974, 0.3133])
+[0 : mcmc]  - Convergence of means: R-1 = 0.119813 after 1485 accepted steps = sum([363, 360, 386, 376])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[3 : mcmc] Progress @ 2025-04-19 16:33:34 : 1442 steps taken, and 376 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:33:46 : 1454 steps taken, and 360 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:34:45 : 1469 steps taken, and 387 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:35:06 : 1438 steps taken, and 367 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:35:51 : 1449 steps taken, and 378 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:36:04 : 1461 steps taken, and 363 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:37:03 : 1476 steps taken, and 390 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:37:14 : 1445 steps taken, and 369 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:38:00 : 1456 steps taken, and 379 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:38:13 : 1468 steps taken, and 365 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:39:21 : 1483 steps taken, and 391 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:39:30 : 1452 steps taken, and 370 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:40:18 : 1463 steps taken, and 381 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:40:20 : 1474 steps taken, and 366 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:41:31 : 1490 steps taken, and 396 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:41:48 : 1459 steps taken, and 372 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:42:28 : 1481 steps taken, and 369 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:42:34 : 1470 steps taken, and 383 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:43:49 : 1497 steps taken, and 397 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:43:54 : 1466 steps taken, and 375 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:44:33 : 1487 steps taken, and 372 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:44:51 : 1477 steps taken, and 383 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:46:09 : 1504 steps taken, and 401 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:46:11 : 1473 steps taken, and 376 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:46:41 : 1494 steps taken, and 372 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:47:00 : 1484 steps taken, and 385 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:48:17 : 1511 steps taken, and 401 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:48:28 : 1480 steps taken, and 379 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:49:01 : 1501 steps taken, and 373 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:49:17 : 1491 steps taken, and 386 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:50:33 : 1518 steps taken, and 405 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:50:37 : 1487 steps taken, and 382 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:51:19 : 1508 steps taken, and 374 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:51:28 : 1498 steps taken, and 388 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:52:51 : 1525 steps taken, and 408 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:52:55 : 1494 steps taken, and 383 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:53:33 : 1504 steps taken, and 391 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:53:40 : 1516 steps taken, and 377 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:54:55 : 1532 steps taken, and 412 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:54:58 : 1500 steps taken, and 386 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:55:52 : 1523 steps taken, and 380 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:55:55 : 1512 steps taken, and 393 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:56:58 : 1539 steps taken, and 413 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:56:59 : 1506 steps taken, and 387 accepted.
+[1 : mcmc] Progress @ 2025-04-19 16:58:11 : 1530 steps taken, and 383 accepted.
+[3 : mcmc] Progress @ 2025-04-19 16:58:14 : 1519 steps taken, and 396 accepted.
+[2 : mcmc] Progress @ 2025-04-19 16:59:15 : 1545 steps taken, and 413 accepted.
+[0 : mcmc] Progress @ 2025-04-19 16:59:16 : 1513 steps taken, and 389 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:00:26 : 1537 steps taken, and 386 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:00:31 : 1526 steps taken, and 398 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:01:23 : 1552 steps taken, and 415 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:01:25 : 1519 steps taken, and 391 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:02:35 : 1545 steps taken, and 388 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:02:41 : 1534 steps taken, and 399 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:03:24 : 1558 steps taken, and 418 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:03:34 : 1525 steps taken, and 394 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:04:41 : 1552 steps taken, and 389 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:04:49 : 1541 steps taken, and 401 accepted.
+[2 : mcmc] Learn + convergence test @ 420 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2025-04-19 17:05:38 : 1565 steps taken, and 420 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:05:55 : 1532 steps taken, and 396 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:06:51 : 1548 steps taken, and 404 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:06:52 : 1558 steps taken, and 392 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:07:49 : 1571 steps taken, and 421 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:07:58 : 1539 steps taken, and 399 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:08:53 : 1554 steps taken, and 404 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:09:08 : 1565 steps taken, and 396 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:10:04 : 1578 steps taken, and 423 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:10:09 : 1545 steps taken, and 400 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:10:55 : 1560 steps taken, and 404 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:11:11 : 1571 steps taken, and 397 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:12:06 : 1584 steps taken, and 424 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:12:21 : 1551 steps taken, and 400 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:12:56 : 1566 steps taken, and 405 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:13:21 : 1577 steps taken, and 398 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:14:08 : 1590 steps taken, and 427 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:14:34 : 1558 steps taken, and 403 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:15:06 : 1573 steps taken, and 408 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:15:24 : 1583 steps taken, and 400 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:16:09 : 1596 steps taken, and 430 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:16:35 : 1564 steps taken, and 403 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:17:15 : 1579 steps taken, and 409 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:17:38 : 1590 steps taken, and 403 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:18:12 : 1602 steps taken, and 432 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:18:35 : 1570 steps taken, and 403 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:19:28 : 1586 steps taken, and 410 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:19:39 : 1596 steps taken, and 405 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:20:23 : 1609 steps taken, and 435 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:20:46 : 1577 steps taken, and 405 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:21:39 : 1602 steps taken, and 406 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:21:52 : 1593 steps taken, and 414 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:22:34 : 1615 steps taken, and 437 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:22:46 : 1583 steps taken, and 405 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:23:39 : 1608 steps taken, and 408 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:23:52 : 1599 steps taken, and 414 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:24:37 : 1622 steps taken, and 440 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:25:07 : 1590 steps taken, and 407 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:25:53 : 1605 steps taken, and 416 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:26:00 : 1615 steps taken, and 411 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:26:59 : 1628 steps taken, and 443 accepted.
+[3 : mcmc] Learn + convergence test @ 420 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2025-04-19 17:27:25 : 1597 steps taken, and 410 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:28:10 : 1612 steps taken, and 421 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:28:18 : 1622 steps taken, and 414 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:29:22 : 1635 steps taken, and 448 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:29:37 : 1604 steps taken, and 412 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:30:20 : 1629 steps taken, and 417 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:30:32 : 1619 steps taken, and 425 accepted.
+[1 : mcmc] Learn + convergence test @ 420 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2025-04-19 17:31:34 : 1642 steps taken, and 450 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:32:00 : 1611 steps taken, and 413 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:32:31 : 1635 steps taken, and 420 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:32:55 : 1626 steps taken, and 428 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:33:47 : 1649 steps taken, and 452 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:34:13 : 1618 steps taken, and 416 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:34:52 : 1642 steps taken, and 423 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:35:07 : 1633 steps taken, and 432 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:35:56 : 1655 steps taken, and 454 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:36:20 : 1624 steps taken, and 418 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:37:05 : 1649 steps taken, and 427 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:37:16 : 1639 steps taken, and 433 accepted.
+[0 : mcmc] Learn + convergence test @ 420 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[2 : mcmc] Progress @ 2025-04-19 17:38:01 : 1662 steps taken, and 455 accepted.
+[0 : mcmc]  - Acceptance rate: 0.308 = avg([0.3057, 0.3139, 0.3140, 0.2969])
+[0 : mcmc]  - Convergence of means: R-1 = 0.146773 after 1739 accepted steps = sum([420, 429, 456, 434])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[3 : mcmc] Progress @ 2025-04-19 17:39:18 : 1647 steps taken, and 434 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:39:19 : 1654 steps taken, and 429 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:39:19 : 1628 steps taken, and 420 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:40:17 : 1668 steps taken, and 458 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:41:19 : 1635 steps taken, and 421 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:41:21 : 1653 steps taken, and 437 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:41:24 : 1660 steps taken, and 429 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:42:30 : 1675 steps taken, and 463 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:43:33 : 1660 steps taken, and 439 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:43:36 : 1667 steps taken, and 432 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:43:37 : 1641 steps taken, and 421 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:44:39 : 1681 steps taken, and 465 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:45:39 : 1648 steps taken, and 423 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:45:42 : 1666 steps taken, and 440 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:45:57 : 1674 steps taken, and 434 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:46:51 : 1688 steps taken, and 465 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:48:00 : 1655 steps taken, and 427 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:48:04 : 1673 steps taken, and 442 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:48:06 : 1681 steps taken, and 435 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:49:01 : 1695 steps taken, and 467 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:50:15 : 1687 steps taken, and 436 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:50:16 : 1680 steps taken, and 444 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:50:22 : 1662 steps taken, and 429 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:51:10 : 1701 steps taken, and 468 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:52:23 : 1687 steps taken, and 445 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:52:24 : 1694 steps taken, and 439 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:52:28 : 1668 steps taken, and 429 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:53:18 : 1708 steps taken, and 471 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:54:31 : 1693 steps taken, and 445 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:54:34 : 1701 steps taken, and 440 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:54:37 : 1675 steps taken, and 429 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:55:39 : 1715 steps taken, and 472 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:56:43 : 1707 steps taken, and 440 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:56:50 : 1700 steps taken, and 448 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:56:57 : 1682 steps taken, and 430 accepted.
+[2 : mcmc] Progress @ 2025-04-19 17:57:59 : 1722 steps taken, and 476 accepted.
+[3 : mcmc] Progress @ 2025-04-19 17:58:58 : 1707 steps taken, and 449 accepted.
+[1 : mcmc] Progress @ 2025-04-19 17:59:05 : 1714 steps taken, and 441 accepted.
+[0 : mcmc] Progress @ 2025-04-19 17:59:18 : 1689 steps taken, and 433 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:00:20 : 1729 steps taken, and 478 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:01:08 : 1714 steps taken, and 450 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:01:15 : 1721 steps taken, and 443 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:01:37 : 1696 steps taken, and 435 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:02:31 : 1736 steps taken, and 480 accepted.
+[2 : mcmc] Learn + convergence test @ 480 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Progress @ 2025-04-19 18:03:26 : 1721 steps taken, and 451 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:03:37 : 1728 steps taken, and 445 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:03:48 : 1703 steps taken, and 437 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:04:51 : 1743 steps taken, and 482 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:05:32 : 1727 steps taken, and 453 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:05:57 : 1735 steps taken, and 448 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:06:10 : 1710 steps taken, and 438 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:07:00 : 1750 steps taken, and 483 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:07:44 : 1734 steps taken, and 454 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:08:09 : 1742 steps taken, and 450 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:08:29 : 1717 steps taken, and 439 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:09:22 : 1757 steps taken, and 484 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:10:03 : 1741 steps taken, and 455 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:10:31 : 1749 steps taken, and 452 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:10:51 : 1724 steps taken, and 443 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:11:44 : 1764 steps taken, and 486 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:12:21 : 1748 steps taken, and 457 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:12:43 : 1756 steps taken, and 455 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:13:01 : 1731 steps taken, and 445 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:13:54 : 1771 steps taken, and 487 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:14:26 : 1755 steps taken, and 460 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:14:56 : 1762 steps taken, and 456 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:15:12 : 1738 steps taken, and 448 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:16:17 : 1778 steps taken, and 489 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:16:37 : 1761 steps taken, and 462 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:17:10 : 1769 steps taken, and 459 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:17:14 : 1744 steps taken, and 451 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:18:18 : 1784 steps taken, and 490 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:18:40 : 1767 steps taken, and 463 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:19:20 : 1775 steps taken, and 461 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:19:27 : 1750 steps taken, and 455 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:20:19 : 1790 steps taken, and 492 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:20:40 : 1773 steps taken, and 465 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:21:33 : 1782 steps taken, and 462 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:21:41 : 1757 steps taken, and 455 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:22:32 : 1796 steps taken, and 495 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:22:55 : 1780 steps taken, and 467 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:23:44 : 1763 steps taken, and 456 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:23:57 : 1789 steps taken, and 465 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:24:39 : 1802 steps taken, and 496 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:25:03 : 1787 steps taken, and 469 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:25:46 : 1769 steps taken, and 457 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:26:01 : 1796 steps taken, and 469 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:27:03 : 1809 steps taken, and 498 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:27:13 : 1793 steps taken, and 472 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:28:10 : 1775 steps taken, and 460 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:28:11 : 1801 steps taken, and 472 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:29:03 : 1815 steps taken, and 500 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:29:27 : 1799 steps taken, and 473 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:30:25 : 1807 steps taken, and 473 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:30:25 : 1781 steps taken, and 462 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:31:27 : 1821 steps taken, and 500 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:31:42 : 1805 steps taken, and 475 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:32:26 : 1787 steps taken, and 464 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:32:36 : 1813 steps taken, and 474 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:33:32 : 1827 steps taken, and 502 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:33:52 : 1811 steps taken, and 476 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:34:38 : 1819 steps taken, and 475 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:34:48 : 1794 steps taken, and 464 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:35:34 : 1833 steps taken, and 505 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:35:54 : 1817 steps taken, and 477 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:36:40 : 1825 steps taken, and 477 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:36:49 : 1800 steps taken, and 464 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:37:34 : 1839 steps taken, and 506 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:37:58 : 1823 steps taken, and 479 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:39:01 : 1832 steps taken, and 479 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:39:08 : 1807 steps taken, and 464 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:39:54 : 1846 steps taken, and 506 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:40:11 : 1830 steps taken, and 480 accepted.
+[3 : mcmc] Learn + convergence test @ 480 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Learn + convergence test @ 480 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2025-04-19 18:41:10 : 1813 steps taken, and 466 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:41:11 : 1838 steps taken, and 481 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:41:57 : 1852 steps taken, and 508 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:42:12 : 1836 steps taken, and 483 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:43:12 : 1844 steps taken, and 484 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:43:14 : 1820 steps taken, and 468 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:44:07 : 1859 steps taken, and 508 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:44:12 : 1842 steps taken, and 486 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:45:17 : 1825 steps taken, and 469 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:45:20 : 1850 steps taken, and 485 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:46:21 : 1866 steps taken, and 509 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:46:23 : 1849 steps taken, and 491 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:47:35 : 1831 steps taken, and 471 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:47:35 : 1857 steps taken, and 485 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:48:26 : 1872 steps taken, and 510 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:48:28 : 1855 steps taken, and 491 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:49:47 : 1837 steps taken, and 471 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:49:48 : 1863 steps taken, and 488 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:50:36 : 1878 steps taken, and 513 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:50:41 : 1861 steps taken, and 492 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:52:01 : 1843 steps taken, and 473 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:52:02 : 1869 steps taken, and 489 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:52:46 : 1884 steps taken, and 515 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:52:54 : 1867 steps taken, and 494 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:54:04 : 1849 steps taken, and 474 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:54:07 : 1875 steps taken, and 493 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:54:58 : 1873 steps taken, and 497 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:54:58 : 1891 steps taken, and 519 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:56:08 : 1881 steps taken, and 495 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:56:18 : 1856 steps taken, and 475 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:56:59 : 1879 steps taken, and 498 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:57:10 : 1897 steps taken, and 520 accepted.
+[1 : mcmc] Progress @ 2025-04-19 18:58:25 : 1887 steps taken, and 497 accepted.
+[0 : mcmc] Progress @ 2025-04-19 18:58:25 : 1862 steps taken, and 476 accepted.
+[2 : mcmc] Progress @ 2025-04-19 18:59:18 : 1903 steps taken, and 522 accepted.
+[3 : mcmc] Progress @ 2025-04-19 18:59:22 : 1886 steps taken, and 501 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:00:37 : 1868 steps taken, and 478 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:00:49 : 1894 steps taken, and 499 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:01:28 : 1909 steps taken, and 523 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:01:45 : 1892 steps taken, and 503 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:02:56 : 1874 steps taken, and 480 accepted.
+[0 : mcmc] Learn + convergence test @ 480 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[1 : mcmc] Progress @ 2025-04-19 19:02:58 : 1900 steps taken, and 503 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:03:41 : 1916 steps taken, and 527 accepted.
+[0 : mcmc]  - Acceptance rate: 0.303 = avg([0.2945, 0.3170, 0.3070, 0.2928])
+[0 : mcmc]  - Convergence of means: R-1 = 0.153204 after 2016 accepted steps = sum([480, 503, 527, 506])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[3 : mcmc] Progress @ 2025-04-19 19:04:07 : 1900 steps taken, and 506 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:05:00 : 1878 steps taken, and 482 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:05:09 : 1904 steps taken, and 505 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:06:04 : 1923 steps taken, and 530 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:06:12 : 1906 steps taken, and 509 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:07:09 : 1884 steps taken, and 484 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:07:20 : 1910 steps taken, and 508 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:08:11 : 1929 steps taken, and 533 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:08:18 : 1912 steps taken, and 511 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:09:11 : 1890 steps taken, and 486 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:09:24 : 1917 steps taken, and 509 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:10:12 : 1935 steps taken, and 535 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:10:21 : 1918 steps taken, and 512 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:11:14 : 1896 steps taken, and 487 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:11:25 : 1923 steps taken, and 511 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:12:21 : 1924 steps taken, and 516 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:12:35 : 1942 steps taken, and 535 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:13:16 : 1902 steps taken, and 488 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:13:26 : 1929 steps taken, and 514 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:14:37 : 1931 steps taken, and 519 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:14:37 : 1948 steps taken, and 537 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:15:18 : 1908 steps taken, and 489 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:15:40 : 1935 steps taken, and 515 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:16:38 : 1954 steps taken, and 538 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:16:49 : 1937 steps taken, and 521 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:17:20 : 1914 steps taken, and 491 accepted.
+[2 : mcmc] Learn + convergence test @ 540 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2025-04-19 19:17:43 : 1941 steps taken, and 515 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:18:40 : 1960 steps taken, and 540 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:19:03 : 1944 steps taken, and 522 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:19:22 : 1920 steps taken, and 492 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:19:44 : 1947 steps taken, and 517 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:20:41 : 1966 steps taken, and 541 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:21:04 : 1950 steps taken, and 525 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:21:23 : 1926 steps taken, and 493 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:22:01 : 1954 steps taken, and 520 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:22:43 : 1972 steps taken, and 542 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:23:05 : 1956 steps taken, and 526 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:23:24 : 1932 steps taken, and 494 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:24:01 : 1960 steps taken, and 522 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:24:56 : 1979 steps taken, and 543 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:25:06 : 1962 steps taken, and 529 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:25:26 : 1938 steps taken, and 495 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:26:15 : 1966 steps taken, and 524 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:26:57 : 1985 steps taken, and 544 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:27:08 : 1968 steps taken, and 531 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:27:29 : 1944 steps taken, and 495 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:28:16 : 1972 steps taken, and 526 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:29:12 : 1974 steps taken, and 532 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:29:16 : 1992 steps taken, and 546 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:29:40 : 1951 steps taken, and 498 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:30:22 : 1978 steps taken, and 528 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:31:15 : 1979 steps taken, and 534 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:31:28 : 1998 steps taken, and 547 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:32:05 : 1957 steps taken, and 500 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:32:32 : 1984 steps taken, and 530 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:33:31 : 2004 steps taken, and 548 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:33:36 : 1986 steps taken, and 537 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:34:10 : 1963 steps taken, and 501 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:34:39 : 1991 steps taken, and 532 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:35:43 : 1993 steps taken, and 538 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:35:50 : 2011 steps taken, and 550 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:36:13 : 1968 steps taken, and 503 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:36:48 : 1998 steps taken, and 532 accepted.
+[3 : mcmc] Learn + convergence test @ 540 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Progress @ 2025-04-19 19:37:45 : 1999 steps taken, and 540 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:38:06 : 2018 steps taken, and 552 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:38:25 : 1974 steps taken, and 503 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:39:10 : 2005 steps taken, and 534 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:39:48 : 2005 steps taken, and 544 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:40:11 : 2024 steps taken, and 555 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:40:32 : 1980 steps taken, and 504 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:41:18 : 2011 steps taken, and 536 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:41:55 : 2011 steps taken, and 548 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:42:14 : 2030 steps taken, and 557 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:42:35 : 1986 steps taken, and 506 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:43:20 : 2017 steps taken, and 537 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:44:01 : 2017 steps taken, and 549 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:44:36 : 2037 steps taken, and 558 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:44:47 : 1992 steps taken, and 507 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:45:32 : 2023 steps taken, and 538 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:46:12 : 2024 steps taken, and 551 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:46:41 : 2043 steps taken, and 560 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:46:51 : 1998 steps taken, and 508 accepted.
+[1 : mcmc] Learn + convergence test @ 540 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2025-04-19 19:47:46 : 2030 steps taken, and 541 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:48:23 : 2030 steps taken, and 552 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:48:53 : 2004 steps taken, and 511 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:48:59 : 2050 steps taken, and 560 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:49:59 : 2036 steps taken, and 543 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:50:35 : 2036 steps taken, and 553 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:50:54 : 2010 steps taken, and 513 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:51:02 : 2056 steps taken, and 560 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:52:01 : 2042 steps taken, and 544 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:52:37 : 2042 steps taken, and 556 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:52:56 : 2016 steps taken, and 515 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:53:03 : 2061 steps taken, and 563 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:54:06 : 2049 steps taken, and 546 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:54:54 : 2049 steps taken, and 557 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:54:58 : 2022 steps taken, and 517 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:55:05 : 2067 steps taken, and 564 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:56:18 : 2055 steps taken, and 550 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:56:57 : 2055 steps taken, and 558 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:56:59 : 2028 steps taken, and 520 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:57:09 : 2074 steps taken, and 567 accepted.
+[1 : mcmc] Progress @ 2025-04-19 19:58:19 : 2061 steps taken, and 550 accepted.
+[0 : mcmc] Progress @ 2025-04-19 19:59:07 : 2035 steps taken, and 523 accepted.
+[3 : mcmc] Progress @ 2025-04-19 19:59:18 : 2061 steps taken, and 558 accepted.
+[2 : mcmc] Progress @ 2025-04-19 19:59:29 : 2081 steps taken, and 569 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:00:43 : 2068 steps taken, and 553 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:01:09 : 2041 steps taken, and 523 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:01:24 : 2067 steps taken, and 559 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:01:34 : 2087 steps taken, and 570 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:02:49 : 2074 steps taken, and 553 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:03:24 : 2047 steps taken, and 525 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:03:31 : 2074 steps taken, and 560 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:03:38 : 2093 steps taken, and 571 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:04:50 : 2080 steps taken, and 555 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:05:26 : 2053 steps taken, and 527 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:05:32 : 2080 steps taken, and 562 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:05:52 : 2099 steps taken, and 574 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:07:06 : 2087 steps taken, and 555 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:07:28 : 2059 steps taken, and 530 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:07:44 : 2086 steps taken, and 566 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:08:08 : 2106 steps taken, and 574 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:09:20 : 2093 steps taken, and 557 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:09:44 : 2066 steps taken, and 533 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:09:57 : 2092 steps taken, and 566 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:10:10 : 2112 steps taken, and 576 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:11:35 : 2100 steps taken, and 559 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:11:46 : 2072 steps taken, and 536 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:12:02 : 2099 steps taken, and 568 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:12:13 : 2118 steps taken, and 577 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:13:39 : 2106 steps taken, and 562 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:13:47 : 2078 steps taken, and 538 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:14:04 : 2105 steps taken, and 572 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:14:16 : 2124 steps taken, and 579 accepted.
+[0 : mcmc] Learn + convergence test @ 540 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[1 : mcmc] Progress @ 2025-04-19 20:15:56 : 2113 steps taken, and 562 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:16:18 : 2131 steps taken, and 582 accepted.
+[0 : mcmc]  - Acceptance rate: 0.303 = avg([0.2922, 0.3183, 0.2931, 0.3066])
+[0 : mcmc]  - Convergence of means: R-1 = 0.111465 after 2259 accepted steps = sum([540, 563, 582, 574])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[3 : mcmc] Progress @ 2025-04-19 20:17:05 : 2112 steps taken, and 574 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:17:06 : 2083 steps taken, and 540 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:18:05 : 2121 steps taken, and 565 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:18:30 : 2137 steps taken, and 584 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:19:18 : 2090 steps taken, and 543 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:19:23 : 2119 steps taken, and 575 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:20:15 : 2128 steps taken, and 568 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:20:36 : 2143 steps taken, and 584 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:21:30 : 2126 steps taken, and 578 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:21:36 : 2097 steps taken, and 544 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:22:21 : 2134 steps taken, and 571 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:22:53 : 2150 steps taken, and 586 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:23:37 : 2132 steps taken, and 579 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:23:43 : 2103 steps taken, and 547 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:24:29 : 2141 steps taken, and 571 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:25:02 : 2157 steps taken, and 590 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:25:51 : 2110 steps taken, and 549 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:25:54 : 2139 steps taken, and 581 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:26:46 : 2148 steps taken, and 572 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:27:11 : 2164 steps taken, and 593 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:28:08 : 2117 steps taken, and 550 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:28:15 : 2147 steps taken, and 582 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:29:04 : 2155 steps taken, and 576 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:29:16 : 2170 steps taken, and 595 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:30:15 : 2124 steps taken, and 551 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:30:19 : 2153 steps taken, and 585 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:31:10 : 2162 steps taken, and 578 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:31:17 : 2177 steps taken, and 597 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:32:33 : 2131 steps taken, and 552 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:32:37 : 2160 steps taken, and 588 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:33:29 : 2169 steps taken, and 579 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:33:36 : 2184 steps taken, and 598 accepted.
+[2 : mcmc] Learn + convergence test @ 600 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2025-04-19 20:34:40 : 2138 steps taken, and 556 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:34:54 : 2167 steps taken, and 589 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:35:38 : 2176 steps taken, and 583 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:35:55 : 2191 steps taken, and 601 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:36:57 : 2145 steps taken, and 556 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:37:10 : 2174 steps taken, and 589 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:37:41 : 2182 steps taken, and 584 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:38:04 : 2198 steps taken, and 602 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:39:04 : 2152 steps taken, and 558 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:39:31 : 2182 steps taken, and 589 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:39:50 : 2189 steps taken, and 585 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:40:10 : 2204 steps taken, and 603 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:41:21 : 2159 steps taken, and 559 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:41:50 : 2189 steps taken, and 589 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:42:08 : 2196 steps taken, and 588 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:42:30 : 2211 steps taken, and 605 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:43:26 : 2165 steps taken, and 560 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:44:04 : 2196 steps taken, and 589 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:44:25 : 2203 steps taken, and 592 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:44:52 : 2219 steps taken, and 607 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:45:32 : 2172 steps taken, and 563 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:46:24 : 2203 steps taken, and 592 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:46:35 : 2210 steps taken, and 594 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:46:59 : 2225 steps taken, and 608 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:47:39 : 2179 steps taken, and 565 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:48:40 : 2216 steps taken, and 595 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:48:43 : 2210 steps taken, and 593 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:49:06 : 2232 steps taken, and 612 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:49:56 : 2186 steps taken, and 568 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:50:49 : 2223 steps taken, and 595 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:50:49 : 2217 steps taken, and 597 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:51:13 : 2239 steps taken, and 614 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:52:14 : 2193 steps taken, and 574 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:52:58 : 2230 steps taken, and 598 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:53:05 : 2224 steps taken, and 598 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:53:18 : 2246 steps taken, and 617 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:54:32 : 2200 steps taken, and 576 accepted.
+[3 : mcmc] Learn + convergence test @ 600 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2025-04-19 20:55:02 : 2236 steps taken, and 599 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:55:09 : 2230 steps taken, and 600 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:55:37 : 2254 steps taken, and 617 accepted.
+[1 : mcmc] Learn + convergence test @ 600 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2025-04-19 20:56:49 : 2207 steps taken, and 579 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:57:10 : 2243 steps taken, and 602 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:57:33 : 2238 steps taken, and 604 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:57:43 : 2260 steps taken, and 619 accepted.
+[0 : mcmc] Progress @ 2025-04-19 20:58:58 : 2214 steps taken, and 581 accepted.
+[1 : mcmc] Progress @ 2025-04-19 20:59:11 : 2249 steps taken, and 603 accepted.
+[3 : mcmc] Progress @ 2025-04-19 20:59:39 : 2245 steps taken, and 605 accepted.
+[2 : mcmc] Progress @ 2025-04-19 20:59:51 : 2267 steps taken, and 620 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:01:05 : 2221 steps taken, and 584 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:01:15 : 2255 steps taken, and 607 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:01:44 : 2251 steps taken, and 606 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:01:59 : 2274 steps taken, and 622 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:03:08 : 2227 steps taken, and 587 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:03:24 : 2262 steps taken, and 608 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:03:57 : 2258 steps taken, and 606 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:04:00 : 2280 steps taken, and 622 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:05:14 : 2234 steps taken, and 589 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:05:40 : 2269 steps taken, and 609 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:06:03 : 2265 steps taken, and 609 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:06:09 : 2287 steps taken, and 624 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:07:20 : 2240 steps taken, and 592 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:07:48 : 2276 steps taken, and 610 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:08:11 : 2272 steps taken, and 611 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:08:14 : 2294 steps taken, and 627 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:09:40 : 2248 steps taken, and 595 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:09:53 : 2282 steps taken, and 611 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:10:21 : 2301 steps taken, and 630 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:10:31 : 2279 steps taken, and 611 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:11:46 : 2254 steps taken, and 596 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:12:01 : 2289 steps taken, and 613 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:12:36 : 2285 steps taken, and 612 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:12:40 : 2308 steps taken, and 633 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:13:53 : 2261 steps taken, and 599 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:14:07 : 2295 steps taken, and 616 accepted.
+[0 : mcmc] Learn + convergence test @ 600 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[3 : mcmc] Progress @ 2025-04-19 21:14:40 : 2292 steps taken, and 614 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:14:42 : 2315 steps taken, and 635 accepted.
+[0 : mcmc]  - Acceptance rate: 0.300 = avg([0.3009, 0.3134, 0.2917, 0.2928])
+[0 : mcmc]  - Convergence of means: R-1 = 0.082321 after 2469 accepted steps = sum([600, 618, 636, 615])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2025-04-19 21:16:21 : 2298 steps taken, and 618 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:16:30 : 2263 steps taken, and 600 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:16:44 : 2323 steps taken, and 638 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:16:52 : 2298 steps taken, and 616 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:18:39 : 2305 steps taken, and 619 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:18:39 : 2270 steps taken, and 602 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:18:51 : 2330 steps taken, and 642 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:19:09 : 2305 steps taken, and 616 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:20:49 : 2312 steps taken, and 621 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:20:57 : 2277 steps taken, and 604 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:20:57 : 2336 steps taken, and 642 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:21:27 : 2312 steps taken, and 617 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:23:01 : 2283 steps taken, and 606 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:23:06 : 2343 steps taken, and 645 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:23:06 : 2319 steps taken, and 623 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:23:35 : 2319 steps taken, and 617 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:25:14 : 2326 steps taken, and 625 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:25:15 : 2350 steps taken, and 650 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:25:23 : 2291 steps taken, and 609 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:25:53 : 2326 steps taken, and 619 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:27:32 : 2357 steps taken, and 654 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:27:33 : 2333 steps taken, and 625 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:27:40 : 2298 steps taken, and 609 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:27:56 : 2332 steps taken, and 621 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:29:46 : 2364 steps taken, and 655 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:29:52 : 2340 steps taken, and 627 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:30:03 : 2305 steps taken, and 611 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:30:13 : 2340 steps taken, and 625 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:32:04 : 2371 steps taken, and 658 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:32:10 : 2312 steps taken, and 615 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:32:11 : 2347 steps taken, and 630 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:32:32 : 2347 steps taken, and 627 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:34:13 : 2378 steps taken, and 659 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:34:17 : 2354 steps taken, and 632 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:34:28 : 2319 steps taken, and 615 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:34:48 : 2354 steps taken, and 629 accepted.
+[2 : mcmc] Learn + convergence test @ 660 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2025-04-19 21:36:22 : 2385 steps taken, and 661 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:36:35 : 2361 steps taken, and 632 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:36:35 : 2326 steps taken, and 617 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:36:57 : 2361 steps taken, and 634 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:38:39 : 2392 steps taken, and 665 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:38:41 : 2368 steps taken, and 633 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:38:54 : 2333 steps taken, and 617 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:39:06 : 2368 steps taken, and 639 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:40:53 : 2399 steps taken, and 667 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:41:01 : 2375 steps taken, and 637 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:41:15 : 2340 steps taken, and 618 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:41:24 : 2375 steps taken, and 641 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:43:10 : 2406 steps taken, and 669 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:43:18 : 2382 steps taken, and 638 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:43:30 : 2381 steps taken, and 643 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:43:32 : 2347 steps taken, and 620 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:45:28 : 2413 steps taken, and 671 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:45:37 : 2389 steps taken, and 642 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:45:38 : 2388 steps taken, and 644 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:45:49 : 2354 steps taken, and 624 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:47:47 : 2420 steps taken, and 673 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:47:47 : 2395 steps taken, and 646 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:47:53 : 2396 steps taken, and 644 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:47:58 : 2361 steps taken, and 627 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:49:52 : 2401 steps taken, and 648 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:49:55 : 2427 steps taken, and 673 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:50:09 : 2403 steps taken, and 644 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:50:17 : 2368 steps taken, and 632 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:52:02 : 2408 steps taken, and 650 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:52:12 : 2434 steps taken, and 674 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:52:18 : 2410 steps taken, and 647 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:52:21 : 2374 steps taken, and 633 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:54:20 : 2415 steps taken, and 652 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:54:21 : 2441 steps taken, and 676 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:54:30 : 2381 steps taken, and 635 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:54:35 : 2417 steps taken, and 650 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:56:38 : 2422 steps taken, and 654 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:56:39 : 2388 steps taken, and 637 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:56:40 : 2448 steps taken, and 678 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:56:42 : 2424 steps taken, and 652 accepted.
+[3 : mcmc] Progress @ 2025-04-19 21:58:45 : 2429 steps taken, and 654 accepted.
+[1 : mcmc] Progress @ 2025-04-19 21:58:52 : 2431 steps taken, and 655 accepted.
+[0 : mcmc] Progress @ 2025-04-19 21:58:56 : 2395 steps taken, and 640 accepted.
+[2 : mcmc] Progress @ 2025-04-19 21:58:58 : 2455 steps taken, and 681 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:01:02 : 2436 steps taken, and 656 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:01:06 : 2462 steps taken, and 683 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:01:09 : 2438 steps taken, and 657 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:01:13 : 2402 steps taken, and 642 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:03:06 : 2443 steps taken, and 658 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:03:10 : 2444 steps taken, and 658 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:03:19 : 2469 steps taken, and 686 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:03:23 : 2409 steps taken, and 647 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:05:16 : 2450 steps taken, and 658 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:05:23 : 2450 steps taken, and 660 accepted.
+[3 : mcmc] Learn + convergence test @ 660 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2025-04-19 22:05:31 : 2416 steps taken, and 650 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:05:37 : 2476 steps taken, and 687 accepted.
+[1 : mcmc] Learn + convergence test @ 660 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2025-04-19 22:07:23 : 2457 steps taken, and 661 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:07:29 : 2456 steps taken, and 661 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:07:36 : 2422 steps taken, and 654 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:07:56 : 2483 steps taken, and 690 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:09:42 : 2464 steps taken, and 666 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:09:49 : 2464 steps taken, and 661 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:09:52 : 2429 steps taken, and 657 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:10:05 : 2490 steps taken, and 693 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:11:52 : 2471 steps taken, and 666 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:11:54 : 2470 steps taken, and 664 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:11:59 : 2436 steps taken, and 658 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:12:24 : 2497 steps taken, and 694 accepted.
+[0 : mcmc] Learn + convergence test @ 660 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[3 : mcmc] Progress @ 2025-04-19 22:14:04 : 2477 steps taken, and 667 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:14:07 : 2478 steps taken, and 668 accepted.
+[0 : mcmc]  - Acceptance rate: 0.298 = avg([0.3000, 0.3026, 0.2987, 0.2902])
+[0 : mcmc]  - Convergence of means: R-1 = 0.069091 after 2691 accepted steps = sum([660, 669, 695, 667])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2025-04-19 22:15:26 : 2440 steps taken, and 661 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:15:36 : 2504 steps taken, and 696 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:16:23 : 2481 steps taken, and 667 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:16:24 : 2487 steps taken, and 672 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:17:32 : 2446 steps taken, and 663 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:17:44 : 2511 steps taken, and 699 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:18:27 : 2488 steps taken, and 670 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:18:39 : 2494 steps taken, and 673 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:19:50 : 2453 steps taken, and 664 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:20:03 : 2518 steps taken, and 701 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:20:32 : 2494 steps taken, and 671 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:20:45 : 2500 steps taken, and 673 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:21:56 : 2459 steps taken, and 666 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:22:12 : 2525 steps taken, and 703 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:22:43 : 2501 steps taken, and 674 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:23:05 : 2508 steps taken, and 673 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:24:04 : 2466 steps taken, and 669 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:24:29 : 2532 steps taken, and 706 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:24:47 : 2507 steps taken, and 675 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:25:22 : 2515 steps taken, and 677 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:26:22 : 2473 steps taken, and 669 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:26:48 : 2539 steps taken, and 707 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:26:57 : 2514 steps taken, and 677 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:27:41 : 2522 steps taken, and 678 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:28:29 : 2480 steps taken, and 671 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:29:05 : 2521 steps taken, and 677 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:29:06 : 2546 steps taken, and 708 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:29:49 : 2529 steps taken, and 679 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:30:36 : 2487 steps taken, and 676 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:31:12 : 2527 steps taken, and 679 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:31:14 : 2553 steps taken, and 709 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:31:56 : 2535 steps taken, and 680 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:32:42 : 2493 steps taken, and 677 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:33:18 : 2534 steps taken, and 679 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:33:21 : 2560 steps taken, and 710 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:34:02 : 2542 steps taken, and 684 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:34:50 : 2500 steps taken, and 679 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:35:26 : 2566 steps taken, and 711 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:35:37 : 2541 steps taken, and 680 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:36:08 : 2548 steps taken, and 687 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:37:10 : 2507 steps taken, and 681 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:37:34 : 2573 steps taken, and 712 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:37:54 : 2548 steps taken, and 681 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:38:28 : 2556 steps taken, and 688 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:39:26 : 2514 steps taken, and 685 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:39:46 : 2580 steps taken, and 713 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:39:56 : 2554 steps taken, and 681 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:40:46 : 2563 steps taken, and 690 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:41:44 : 2521 steps taken, and 688 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:41:50 : 2587 steps taken, and 714 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:42:05 : 2561 steps taken, and 683 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:42:53 : 2570 steps taken, and 690 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:43:55 : 2594 steps taken, and 716 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:44:03 : 2528 steps taken, and 691 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:44:25 : 2568 steps taken, and 684 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:44:57 : 2576 steps taken, and 692 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:45:57 : 2600 steps taken, and 716 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:46:19 : 2535 steps taken, and 693 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:46:44 : 2575 steps taken, and 686 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:46:58 : 2583 steps taken, and 694 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:48:02 : 2606 steps taken, and 718 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:48:38 : 2543 steps taken, and 695 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:48:52 : 2582 steps taken, and 689 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:49:04 : 2589 steps taken, and 695 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:50:10 : 2613 steps taken, and 719 accepted.
+[2 : mcmc] Learn + convergence test @ 720 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2025-04-19 22:50:56 : 2550 steps taken, and 696 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:51:11 : 2589 steps taken, and 690 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:51:23 : 2596 steps taken, and 695 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:52:28 : 2620 steps taken, and 723 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:53:01 : 2557 steps taken, and 698 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:53:31 : 2596 steps taken, and 691 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:53:31 : 2603 steps taken, and 695 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:54:34 : 2627 steps taken, and 726 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:55:06 : 2563 steps taken, and 700 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:55:39 : 2609 steps taken, and 698 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:55:39 : 2603 steps taken, and 695 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:56:52 : 2634 steps taken, and 729 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:57:14 : 2570 steps taken, and 701 accepted.
+[1 : mcmc] Progress @ 2025-04-19 22:57:49 : 2616 steps taken, and 699 accepted.
+[3 : mcmc] Progress @ 2025-04-19 22:57:59 : 2610 steps taken, and 698 accepted.
+[2 : mcmc] Progress @ 2025-04-19 22:59:09 : 2641 steps taken, and 732 accepted.
+[0 : mcmc] Progress @ 2025-04-19 22:59:33 : 2577 steps taken, and 704 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:00:08 : 2623 steps taken, and 699 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:00:16 : 2617 steps taken, and 699 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:01:30 : 2648 steps taken, and 733 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:01:40 : 2584 steps taken, and 706 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:02:24 : 2624 steps taken, and 700 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:02:26 : 2630 steps taken, and 701 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:03:46 : 2590 steps taken, and 707 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:03:49 : 2656 steps taken, and 735 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:04:30 : 2630 steps taken, and 701 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:04:34 : 2637 steps taken, and 701 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:05:54 : 2597 steps taken, and 708 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:06:05 : 2663 steps taken, and 738 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:06:49 : 2637 steps taken, and 704 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:06:53 : 2644 steps taken, and 703 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:08:12 : 2604 steps taken, and 710 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:08:22 : 2670 steps taken, and 742 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:09:10 : 2645 steps taken, and 706 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:09:13 : 2651 steps taken, and 704 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:10:18 : 2611 steps taken, and 712 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:10:42 : 2677 steps taken, and 743 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:11:21 : 2658 steps taken, and 706 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:11:28 : 2652 steps taken, and 707 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:12:25 : 2617 steps taken, and 714 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:12:47 : 2684 steps taken, and 744 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:13:31 : 2665 steps taken, and 707 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:13:38 : 2659 steps taken, and 710 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:14:31 : 2624 steps taken, and 717 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:15:03 : 2690 steps taken, and 745 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:15:39 : 2665 steps taken, and 710 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:15:45 : 2672 steps taken, and 711 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:16:45 : 2631 steps taken, and 717 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:17:23 : 2697 steps taken, and 747 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:17:48 : 2672 steps taken, and 711 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:18:04 : 2679 steps taken, and 712 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:18:52 : 2638 steps taken, and 717 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:19:31 : 2704 steps taken, and 749 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:19:54 : 2678 steps taken, and 712 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:20:09 : 2685 steps taken, and 715 accepted.
+[0 : mcmc] Learn + convergence test @ 720 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2025-04-19 23:20:58 : 2645 steps taken, and 720 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:21:37 : 2711 steps taken, and 754 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:22:08 : 2685 steps taken, and 713 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:22:16 : 2692 steps taken, and 717 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:23:15 : 2652 steps taken, and 722 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:23:57 : 2718 steps taken, and 757 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:24:12 : 2691 steps taken, and 715 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:24:33 : 2699 steps taken, and 719 accepted.
+[1 : mcmc] Learn + convergence test @ 720 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2025-04-19 23:25:33 : 2659 steps taken, and 724 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:26:12 : 2698 steps taken, and 717 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:26:15 : 2725 steps taken, and 758 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:26:42 : 2706 steps taken, and 723 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:27:51 : 2666 steps taken, and 727 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:28:20 : 2704 steps taken, and 719 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:28:33 : 2732 steps taken, and 760 accepted.
+[3 : mcmc] Learn + convergence test @ 720 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2025-04-19 23:28:49 : 2713 steps taken, and 726 accepted.
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.289 = avg([0.2948, 0.2897, 0.2970, 0.2757])
+[0 : mcmc]  - Convergence of means: R-1 = 0.025650 after 2938 accepted steps = sum([730, 726, 762, 720])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2025-04-19 23:30:18 : 2674 steps taken, and 730 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:30:32 : 2707 steps taken, and 720 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:30:50 : 2741 steps taken, and 762 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:30:52 : 2715 steps taken, and 726 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:32:34 : 2680 steps taken, and 732 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:32:49 : 2715 steps taken, and 720 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:32:59 : 2722 steps taken, and 731 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:33:00 : 2748 steps taken, and 764 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:34:54 : 2688 steps taken, and 735 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:35:05 : 2728 steps taken, and 731 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:35:08 : 2722 steps taken, and 723 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:35:19 : 2755 steps taken, and 766 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:37:04 : 2695 steps taken, and 736 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:37:08 : 2735 steps taken, and 732 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:37:18 : 2729 steps taken, and 724 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:37:35 : 2762 steps taken, and 768 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:39:11 : 2701 steps taken, and 736 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:39:26 : 2742 steps taken, and 736 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:39:35 : 2736 steps taken, and 724 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:39:42 : 2769 steps taken, and 771 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:41:12 : 2708 steps taken, and 739 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:41:44 : 2749 steps taken, and 738 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:41:49 : 2743 steps taken, and 725 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:41:49 : 2776 steps taken, and 773 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:43:14 : 2714 steps taken, and 741 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:44:02 : 2756 steps taken, and 741 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:44:06 : 2750 steps taken, and 726 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:44:07 : 2783 steps taken, and 776 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:45:25 : 2721 steps taken, and 743 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:46:11 : 2763 steps taken, and 742 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:46:14 : 2757 steps taken, and 728 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:46:25 : 2790 steps taken, and 778 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:47:43 : 2728 steps taken, and 744 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:48:20 : 2770 steps taken, and 743 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:48:21 : 2763 steps taken, and 729 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:48:39 : 2797 steps taken, and 779 accepted.
+[2 : mcmc] Learn + convergence test @ 780 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2025-04-19 23:49:49 : 2734 steps taken, and 749 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:50:24 : 2776 steps taken, and 743 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:50:43 : 2771 steps taken, and 731 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:50:46 : 2804 steps taken, and 781 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:52:07 : 2741 steps taken, and 751 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:52:33 : 2783 steps taken, and 747 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:52:52 : 2810 steps taken, and 782 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:53:03 : 2778 steps taken, and 733 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:54:15 : 2748 steps taken, and 752 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:54:38 : 2789 steps taken, and 749 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:55:11 : 2817 steps taken, and 784 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:55:21 : 2785 steps taken, and 735 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:56:34 : 2755 steps taken, and 754 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:56:46 : 2796 steps taken, and 752 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:57:20 : 2824 steps taken, and 786 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:57:33 : 2792 steps taken, and 736 accepted.
+[0 : mcmc] Progress @ 2025-04-19 23:58:39 : 2761 steps taken, and 758 accepted.
+[1 : mcmc] Progress @ 2025-04-19 23:58:46 : 2802 steps taken, and 755 accepted.
+[2 : mcmc] Progress @ 2025-04-19 23:59:32 : 2831 steps taken, and 786 accepted.
+[3 : mcmc] Progress @ 2025-04-19 23:59:44 : 2799 steps taken, and 736 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:00:56 : 2768 steps taken, and 760 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:00:57 : 2809 steps taken, and 757 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:01:41 : 2838 steps taken, and 788 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:02:05 : 2807 steps taken, and 737 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:03:02 : 2815 steps taken, and 760 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:03:15 : 2775 steps taken, and 762 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:03:58 : 2845 steps taken, and 789 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:04:25 : 2814 steps taken, and 739 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:05:11 : 2822 steps taken, and 761 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:05:35 : 2783 steps taken, and 763 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:06:17 : 2852 steps taken, and 793 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:06:43 : 2821 steps taken, and 739 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:07:14 : 2828 steps taken, and 766 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:07:52 : 2790 steps taken, and 765 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:08:27 : 2859 steps taken, and 795 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:08:50 : 2828 steps taken, and 741 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:09:22 : 2835 steps taken, and 768 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:10:01 : 2797 steps taken, and 766 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:10:33 : 2866 steps taken, and 798 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:10:54 : 2834 steps taken, and 743 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:11:28 : 2841 steps taken, and 771 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:12:07 : 2803 steps taken, and 767 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:12:40 : 2872 steps taken, and 800 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:13:04 : 2841 steps taken, and 745 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:13:50 : 2849 steps taken, and 773 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:14:26 : 2810 steps taken, and 769 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:14:55 : 2879 steps taken, and 802 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:15:13 : 2848 steps taken, and 746 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:16:09 : 2856 steps taken, and 777 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:16:35 : 2817 steps taken, and 772 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:17:02 : 2886 steps taken, and 803 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:17:17 : 2854 steps taken, and 749 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:18:18 : 2863 steps taken, and 779 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:18:51 : 2824 steps taken, and 774 accepted.
+[1 : mcmc] Learn + convergence test @ 780 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2025-04-20 00:19:19 : 2893 steps taken, and 805 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:19:25 : 2861 steps taken, and 752 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:20:23 : 2869 steps taken, and 782 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:21:08 : 2831 steps taken, and 777 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:21:27 : 2900 steps taken, and 805 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:21:31 : 2867 steps taken, and 755 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:22:42 : 2876 steps taken, and 784 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:23:15 : 2838 steps taken, and 778 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:23:34 : 2907 steps taken, and 806 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:23:42 : 2874 steps taken, and 757 accepted.
+[0 : mcmc] Learn + convergence test @ 780 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2025-04-20 00:25:01 : 2883 steps taken, and 786 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:25:34 : 2845 steps taken, and 782 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:25:41 : 2913 steps taken, and 809 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:25:59 : 2881 steps taken, and 760 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:27:10 : 2890 steps taken, and 787 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:27:46 : 2919 steps taken, and 812 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:27:52 : 2852 steps taken, and 786 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:28:21 : 2889 steps taken, and 762 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:29:30 : 2897 steps taken, and 788 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:30:00 : 2859 steps taken, and 786 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:30:04 : 2927 steps taken, and 814 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:30:24 : 2895 steps taken, and 764 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:31:39 : 2904 steps taken, and 791 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:32:11 : 2866 steps taken, and 789 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:32:22 : 2934 steps taken, and 817 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:32:32 : 2901 steps taken, and 765 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:33:58 : 2911 steps taken, and 794 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:34:28 : 2873 steps taken, and 790 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:34:31 : 2941 steps taken, and 820 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:34:51 : 2908 steps taken, and 768 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:36:16 : 2918 steps taken, and 796 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:36:32 : 2879 steps taken, and 793 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:36:36 : 2947 steps taken, and 820 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:37:00 : 2915 steps taken, and 771 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:38:35 : 2925 steps taken, and 797 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:38:40 : 2886 steps taken, and 795 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:38:54 : 2954 steps taken, and 823 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:39:11 : 2922 steps taken, and 775 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:40:42 : 2932 steps taken, and 799 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:40:57 : 2893 steps taken, and 798 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:41:02 : 2961 steps taken, and 823 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:41:27 : 2929 steps taken, and 777 accepted.
+[1 : mcmc] Progress @ 2025-04-20 00:42:50 : 2939 steps taken, and 803 accepted.
+[0 : mcmc] Progress @ 2025-04-20 00:43:06 : 2900 steps taken, and 799 accepted.
+[2 : mcmc] Progress @ 2025-04-20 00:43:20 : 2968 steps taken, and 826 accepted.
+[3 : mcmc] Progress @ 2025-04-20 00:43:39 : 2936 steps taken, and 778 accepted.
+[3 : mcmc] Learn + convergence test @ 780 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2025-04-20 00:44:59 : 2945 steps taken, and 805 accepted.
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[2 : mcmc] Progress @ 2025-04-20 00:45:22 : 2976 steps taken, and 827 accepted.
+[0 : mcmc]  - Acceptance rate: 0.289 = avg([0.2969, 0.2959, 0.2893, 0.2716])
+[0 : mcmc]  - Convergence of means: R-1 = 0.047209 after 3218 accepted steps = sum([804, 806, 828, 780])
+[0 : mcmc]  - Convergence of bounds: R-1 = 0.157730 after 3218 accepted steps = sum([804, 806, 828, 780])
+[0 : mcmc] The run has converged!
+[0 : mcmc] Sampling complete after 3218 accepted steps.
+[0m[0m[0m[0m
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@e4farm03.ge.infn.it>
+Subject: Job 336106: <act_planck> in cluster <infnge> Done
+
+Job <act_planck> was submitted from host <farmuisl7.ge.infn.it> by user <mraveri> in cluster <infnge>.
+Job was executed on host(s) <16*e4farm03.ge.infn.it>, in queue <long>, as user <mraveri> in cluster <infnge>.
+</home/mraveri> was used as the home directory.
+</home/mraveri/projects/andrea/tesi_magistrale/lcdm/act_planck> was used as the working directory.
+Started at Sat Apr 19 10:21:59 2025
+Results reported on Sun Apr 20 00:46:18 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -J act_planck                # Job name
+#BSUB -M 64000                     # Memory limit (64GB)
+#BSUB -R "rusage[mem=64000]"       # Resource request
+#BSUB -q long                      # Queue
+#BSUB -o act_planck.out            # Output log
+#BSUB -e act_planck.err            # Error log
+#BSUB -n 16                        # Total cores
+
+# Set number of threads per chain (OMP = threads for linear algebra, etc.)
+export OMP_NUM_THREADS=4
+
+# Run Cobaya with MPI (4 chains using 4 threads each = 16 total cores)
+mpirun -np 4 cobaya-run act_planck.yaml
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   112713.70 sec.
+    Max Memory :                                 2612 MB
+    Average Memory :                             2522.01 MB
+    Total Requested Memory :                     64000.00 MB
+    Delta Memory :                               61388.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              8
+    Max Threads :                                31
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <act_planck.err> for stderr output of this job.
+

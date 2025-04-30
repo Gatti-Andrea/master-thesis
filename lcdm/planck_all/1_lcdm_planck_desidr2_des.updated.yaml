@@ -1,0 +1,540 @@
+theory:
+  camb:
+    version: 1.5.8
+    path: null
+    speed: 0.3
+    stop_at_error: false
+    extra_args:
+      halofit_version: mead
+      bbn_predictor: PArthENoPE_880.2_standard.dat
+      lens_potential_accuracy: 1
+      dark_energy_model: ppf
+      num_massive_neutrinos: 1
+      nnu: 3.046
+      theta_H0_range:
+      - 20
+      - 100
+    ignore_obsolete: false
+    use_renames: false
+    external_primordial_pk: false
+    renames:
+      omegabh2: ombh2
+      omegach2: omch2
+      omegal: omega_de
+      omegak: omk
+      yhe: YHe
+      yheused: YHe
+      YpBBN: Y_p
+    input_params:
+    - As
+    - ns
+    - cosmomc_theta
+    - ombh2
+    - omch2
+    - mnu
+    - tau
+    output_params:
+    - YHe
+    - Y_p
+    - age
+    - H0
+    - omegam
+    - zre
+    - sigma8
+    - rdrag
+    - DH
+likelihood:
+  sn.desy5:
+    path: null
+    dataset_file: DESY5/config.dataset
+    dataset_params: null
+    aliases:
+    - DESY5
+    use_abs_mag: false
+    speed: 100
+    type: SN
+    stop_at_error: false
+    version: null
+    input_params: []
+    output_params: []
+  bao.desi_dr2.desi_bao_all:
+    path: null
+    measurements_file: bao_data/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt
+    cov_file: bao_data/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt
+    rs_fid: 1
+    aliases:
+    - BAO
+    speed: 2000
+    type: BAO
+    rs_rescale: null
+    prob_dist: null
+    invcov_file: null
+    redshift: null
+    observable_1: null
+    observable_2: null
+    observable_3: null
+    grid_file: null
+    stop_at_error: false
+    version: null
+    input_params: []
+    output_params: []
+  planck_2018_lowl.TT:
+    lmin: 2
+    lmax: 29
+    type: CMB
+    aliases:
+    - lowT
+    speed: -1
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    output_params: []
+  planck_2020_lollipop.lowlB:
+    data_folder: planck_2020/lollipop
+    cl_file: cl_lolEB_NPIPE.dat
+    fiducial_file: fiducial_lolEB_planck2018_tensor_lensedCls.dat
+    cl_cov_file: clcov_lolEB_NPIPE.fits
+    hartlap_factor: false
+    marginalised_over_covariance: true
+    Nsim: 400
+    lmin: 2
+    lmax: 30
+    type: []
+    speed: -1
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    output_params: []
+  planck_2020_lollipop.lowlEB:
+    data_folder: planck_2020/lollipop
+    cl_file: cl_lolEB_NPIPE.dat
+    fiducial_file: fiducial_lolEB_planck2018_tensor_lensedCls.dat
+    cl_cov_file: clcov_lolEB_NPIPE.fits
+    hartlap_factor: false
+    marginalised_over_covariance: true
+    Nsim: 400
+    lmin: 2
+    lmax: 30
+    type: []
+    speed: -1
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    output_params: []
+  planck_2020_hillipop.TTTEEE:
+    data_folder: planck_2020/hillipop
+    multipoles_range_file: data/binning_v4.2.fits
+    xspectra_basename: data/dl_PR4_v4.2
+    covariance_matrix_file: data/invfll_PR4_v4.2_TTTEEE.fits
+    foregrounds:
+      TT:
+        dust_model: foregrounds/DUST_Planck_PR4_model_v4.2
+        tsz: foregrounds/SZ_Planck_PR4_model.txt
+        ksz: foregrounds/kSZ_Planck_PR4_model.txt
+        cib: foregrounds/CIB_Planck_PR4_model.txt
+        szxcib: foregrounds/SZxCIB_Planck_PR4_model.txt
+        ps_radio: null
+        ps_dusty: null
+      EE:
+        dust_model: foregrounds/DUST_Planck_PR4_model_v4.2
+      TE:
+        dust_model: foregrounds/DUST_Planck_PR4_model_v4.2
+    type: []
+    speed: -1
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    - cal100A
+    - cal100B
+    - cal143A
+    - cal143B
+    - cal217A
+    - cal217B
+    - pe100A
+    - pe100B
+    - pe143A
+    - pe143B
+    - pe217A
+    - pe217B
+    - Aradio
+    - beta_radio
+    - Adusty
+    - beta_dusty
+    - AdustT
+    - beta_dustT
+    - AsyncT
+    - Acib
+    - beta_cib
+    - Atsz
+    - Aksz
+    - xi
+    - AdustP
+    - beta_dustP
+    - AsyncP
+    output_params: []
+params:
+  A:
+    derived: 'lambda As: 1e9*As'
+    latex: 10^9 A_\mathrm{s}
+  As:
+    latex: A_\mathrm{s}
+    value: 'lambda logA: 1e-10*np.exp(logA)'
+    derived: true
+  DHBBN:
+    derived: 'lambda DH: 10**5*DH'
+    latex: 10^5 \mathrm{D}/\mathrm{H}
+  YHe:
+    latex: Y_\mathrm{P}
+    derived: true
+    renames:
+    - yheused
+    - yhe
+  Y_p:
+    latex: Y_P^\mathrm{BBN}
+    derived: true
+    renames:
+    - YpBBN
+  age:
+    latex: '{\rm{Age}}/\mathrm{Gyr}'
+    derived: true
+  clamp:
+    derived: 'lambda As, tau: 1e9*As*np.exp(-2*tau)'
+    latex: 10^9 A_\mathrm{s} e^{-2\tau}
+  logA:
+    prior:
+      min: 1.61
+      max: 3.91
+    ref:
+      dist: norm
+      loc: 3.05
+      scale: 0.001
+    proposal: 0.001
+    latex: \log(10^{10} A_\mathrm{s})
+    drop: true
+  ns:
+    prior:
+      min: 0.8
+      max: 1.2
+    ref:
+      dist: norm
+      loc: 0.965
+      scale: 0.004
+    proposal: 0.002
+    latex: n_\mathrm{s}
+  theta_MC_100:
+    prior:
+      min: 0.5
+      max: 10
+    ref:
+      dist: norm
+      loc: 1.04109
+      scale: 0.0004
+    proposal: 0.0002
+    latex: 100\theta_\mathrm{MC}
+    drop: true
+    renames: theta
+  cosmomc_theta:
+    value: 'lambda theta_MC_100: 1.e-2*theta_MC_100'
+    derived: false
+  H0:
+    latex: H_0
+    min: 20
+    max: 100
+    derived: true
+  ombh2:
+    prior:
+      min: 0.005
+      max: 0.1
+    ref:
+      dist: norm
+      loc: 0.0224
+      scale: 0.0001
+    proposal: 0.0001
+    latex: \Omega_\mathrm{b} h^2
+    renames:
+    - omegabh2
+  omch2:
+    prior:
+      min: 0.001
+      max: 0.99
+    ref:
+      dist: norm
+      loc: 0.12
+      scale: 0.001
+    proposal: 0.0005
+    latex: \Omega_\mathrm{c} h^2
+    renames:
+    - omegach2
+  omegam:
+    latex: \Omega_\mathrm{m}
+    derived: true
+  omegamh2:
+    derived: 'lambda omegam, H0: omegam*(H0/100)**2'
+    latex: \Omega_\mathrm{m} h^2
+  mnu:
+    value: 0.06
+  tau:
+    prior:
+      min: 0.01
+      max: 0.8
+    ref:
+      dist: norm
+      loc: 0.055
+      scale: 0.006
+    proposal: 0.003
+    latex: \tau_\mathrm{reio}
+  zre:
+    latex: z_\mathrm{re}
+    derived: true
+  sigma8:
+    latex: \sigma_8
+    derived: true
+  s8h5:
+    derived: 'lambda sigma8, H0: sigma8*(H0*1e-2)**(-0.5)'
+    latex: \sigma_8/h^{0.5}
+  s8omegamp5:
+    derived: 'lambda sigma8, omegam: sigma8*omegam**0.5'
+    latex: \sigma_8 \Omega_\mathrm{m}^{0.5}
+  s8omegamp25:
+    derived: 'lambda sigma8, omegam: sigma8*omegam**0.25'
+    latex: \sigma_8 \Omega_\mathrm{m}^{0.25}
+  rdrag:
+    latex: r_\mathrm{drag}
+    derived: true
+  A_planck:
+    prior:
+      dist: norm
+      loc: 1
+      scale: 0.0025
+    ref:
+      dist: norm
+      loc: 1
+      scale: 0.002
+    proposal: 0.0005
+    latex: y_\mathrm{cal}
+    renames: calPlanck
+  cal100A:
+    prior:
+      min: 0.9
+      max: 1.1
+    ref: 1.0
+    proposal: 0.005
+    latex: c_\mathrm{100A}
+  cal100B:
+    prior:
+      min: 0.9
+      max: 1.1
+    ref: 1.0
+    proposal: 0.005
+    latex: c_\mathrm{100B}
+  cal143A:
+    value: 1.0
+    latex: c_\mathrm{143A}
+  cal143B:
+    prior:
+      min: 0.9
+      max: 1.1
+    ref: 1.0
+    proposal: 0.005
+    latex: c_\mathrm{143B}
+  cal217A:
+    prior:
+      min: 0.9
+      max: 1.1
+    ref: 1.0
+    proposal: 0.005
+    latex: c_\mathrm{217A}
+  cal217B:
+    prior:
+      min: 0.9
+      max: 1.1
+    ref: 1.0
+    proposal: 0.005
+    latex: c_\mathrm{217B}
+  pe100A:
+    value: 1.0
+    latex: \eta_\mathrm{100A}
+  pe100B:
+    value: 1.0
+    latex: \eta_\mathrm{100B}
+  pe143A:
+    value: 1.0
+    latex: \eta_\mathrm{143A}
+  pe143B:
+    value: 1.0
+    latex: \eta_\mathrm{143B}
+  pe217A:
+    value: 0.975
+    latex: \eta_\mathrm{217A}
+  pe217B:
+    value: 0.975
+    latex: \eta_\mathrm{217B}
+  Aradio:
+    prior:
+      min: 0.0
+      max: 150.0
+    ref: 60.0
+    proposal: 1.0
+    latex: A_\mathrm{radio}^\mathrm{PS}
+  beta_radio:
+    value: -0.8
+    latex: \beta_\mathrm{radio}^\mathrm{PS}
+  Adusty:
+    prior:
+      min: 0.0
+      max: 100.0
+    ref: 6.0
+    proposal: 1.0
+    latex: A_\mathrm{IR}^\mathrm{PS}
+  beta_dusty:
+    value: 'lambda beta_cib: beta_cib'
+    latex: \beta_\mathrm{IR}^\mathrm{PS}
+    derived: true
+  AdustT:
+    prior:
+      dist: norm
+      loc: 1.0
+      scale: 0.1
+    ref: 1.0
+    proposal: 0.02
+    latex: A_\mathrm{dustT}
+  beta_dustT:
+    prior:
+      dist: norm
+      loc: 1.51
+      scale: 0.01
+    ref: 1.51
+    proposal: 0.01
+    latex: \beta_\mathrm{dustT}
+  AsyncT:
+    value: 0.0
+    latex: A_\mathrm{syncT}
+  Acib:
+    prior:
+      min: 0.0
+      max: 20.0
+    ref: 4.0
+    proposal: 1
+    latex: A_\mathrm{CIB}
+  beta_cib:
+    prior:
+      dist: norm
+      loc: 1.75
+      scale: 0.06
+    ref: 1.75
+    proposal: 0.05
+    latex: \beta_\mathrm{CIB}
+  Atsz:
+    prior:
+      min: 0.0
+      max: 50.0
+    ref: 3.0
+    proposal: 1
+    latex: A_\mathrm{tSZ}
+  Aksz:
+    prior:
+      min: 0
+      max: 50
+    ref: 1.0
+    proposal: 1
+    latex: A_\mathrm{kSZ}
+  xi:
+    prior:
+      min: -1.0
+      max: 1.0
+    ref: 0.1
+    proposal: 0.1
+    latex: \xi_\mathrm{SZxCIB}
+  AdustP:
+    prior:
+      dist: norm
+      loc: 1.0
+      scale: 0.1
+    ref: 1.0
+    proposal: 0.02
+    latex: A_\mathrm{dustP}
+  beta_dustP:
+    prior:
+      dist: norm
+      loc: 1.59
+      scale: 0.02
+    ref: 1.59
+    proposal: 0.01
+    latex: \beta_\mathrm{dustP}
+  AsyncP:
+    value: 0.0
+    latex: A_\mathrm{syncP}
+  chi2__BAO:
+    latex: \chi^2_\mathrm{BAO}
+    derived: true
+  chi2__CMB:
+    latex: \chi^2_\mathrm{CMB}
+    derived: true
+  chi2__SN:
+    latex: \chi^2_\mathrm{SN}
+    derived: true
+sampler:
+  mcmc:
+    burn_in: 0
+    max_tries: 100d
+    covmat: auto
+    covmat_params: null
+    proposal_scale: 2.4
+    output_every: 120s
+    learn_every: 10d
+    temperature: 1
+    learn_proposal: true
+    learn_proposal_Rminus1_max: 300.0
+    learn_proposal_Rminus1_max_early: 3000.0
+    learn_proposal_Rminus1_min: 0.0
+    max_samples: .inf
+    Rminus1_stop: 0.05
+    Rminus1_cl_stop: 0.5
+    Rminus1_cl_level: 0.95
+    Rminus1_single_split: 4
+    measure_speeds: true
+    oversample_power: 0.4
+    oversample_thin: true
+    drag: true
+    blocking:
+    - - 1
+      - - theta_MC_100
+        - ombh2
+        - omch2
+        - tau
+    - - 1
+      - - logA
+        - ns
+    - - 1
+      - - A_planck
+    - - 1
+      - - cal100A
+        - cal100B
+        - cal143B
+        - cal217A
+        - cal217B
+        - Aradio
+        - Adusty
+        - AdustT
+        - beta_dustT
+        - Acib
+        - beta_cib
+        - Atsz
+        - Aksz
+        - xi
+        - AdustP
+        - beta_dustP
+    callback_function: null
+    callback_every: null
+    seed: null
+    check_every: null
+    oversample: null
+    drag_limits: null
+    fallback_covmat_scale: 4
+    version: 3.5.5
+output: 1_lcdm_planck_desidr2_des
+version: 3.5.5
